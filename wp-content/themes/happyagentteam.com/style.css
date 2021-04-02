@@ -100,16 +100,166 @@ TABLE OF CONTENTS
 /* Global */
 
 body{
-	font-family: var(--font-family-default);
+	font-family: 'Roboto', sans-serif;
 	font-size: var(--font-size-default);
+    font-weight: 300;
 	background: #FFFFFF;
 	color: var(--font-color-default);
 	margin: 0;
 
-    /* Remove the comment from line 85 to 86 if the font issue in safari occurs */
+     /* Remove the comment from line 85 to 86 if the font issue in safari occurs */
     /* -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; */
 }
+
+button {
+    outline: 0;
+    border: 0;
+    background: none;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.primary-text {
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #cdbe9d;
+    text-transform: uppercase;
+}
+
+.secondary-text {
+    font-weight: 300;
+    font-size: 42px;
+    color:#656565 ;
+    text-transform: uppercase;
+}
+
+.global-btn a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+    width: 262px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.global-btn a:hover {
+    background: #cdbe9d;
+    border: 1px solid #cdbe9d;
+}
+
+.hp-about-us img {
+    background: url(images/About-img-bg.jpg);
+}
+
+/* Featured start */
+.hp-properties {
+    position: relative;
+    padding: 99px 0 143px 0;
+}
+
+.hp-properties > * + * {
+    padding-top: 107px;
+}
+
+.hp-properties img {
+    filter: grayscale(100%);
+}
+
+.fp-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px 0 38px;
+}
+
+.fp-content > a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.fp-content img {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.fp-content img:hover {
+    filter: grayscale(0);
+}
+
+.fp-description {
+    padding-left: 50px;
+}
+
+.fp-slick-2 .fp-description {
+    padding-right: 50px;
+}
+
+.fp-description p {
+    padding: 75px 0 23px;
+}
+
+.fp-description .fp-secondary-style {
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 25px;
+    font-size: 33px;
+    color: #fff;
+}
+
+.fp-primary-style {
+    font-size: 21px;
+    color: #fff;
+}
+
+.fp-slick-2 .fp-content {
+    padding: 0 38px 0 160px;
+}
+
+.fp-slick-2 .global-btn {
+    display: inline-block;
+}
+
+.fp-slick-wrapper {
+    position: relative;
+}
+
+.fp-slick-wrapper::before {
+    content: '';
+    position: absolute;
+    height: 289px;
+    background: #0abab5;
+    width: 100%;
+    bottom: 100px;
+}
+
+.fp-slick-2 {
+    text-align: right;
+}
+
+.arrow-btn {
+    display: flex;
+    cursor: pointer;
+}
+
+.arrow-holder {
+    display: flex;
+    font-size: 13px;
+}
+
 
 /*******************************************************
  *

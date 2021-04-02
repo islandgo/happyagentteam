@@ -8,8 +8,8 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="upper-footer">
-					<img src="https://placeimg.com/640/480/any" alt="">
-					<img src="https://placeimg.com/640/480/any" alt="">
+				<img alt="logo" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-ps.png">
+				<img alt="logo" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-luxury.png">
 				</div>
 				<div class="middle-footer">
 					<div class="footer-phone">

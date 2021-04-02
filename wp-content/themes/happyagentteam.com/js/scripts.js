@@ -7,48 +7,57 @@
 			if ( $nav.length > 0 ) $nav.navTabDoubleTap();
 		},
 		initFeaturedProperties: function() {
-			/* Put featured properties code here */
-			for (var i = 1; i <= 3; i++) {
-				jQuery('.fp-slick-' + i).slick({
+			var slickItems = ["1", "2", "3"];
+			slickItems.forEach(slickAction);
+
+			function slickAction(item, index) {
+				jQuery('.fp-slick-' + item).slick({
 					dots: false,
 					infinite: true,
 					slidesToShow: 1,
 					speed: 1000,
-					autoplay: true,
+					autoplay: false,
 					autoplaySpeed: 5000,
 					slidesToScroll: 1,
-					arrows: true,
-					prevArrow: '.hp-properties .arrow-btn.prev',
-					nextArrow: '.hp-properties .arrow-btn.next',
+					arrows: false,
 					responsive: [
-					{
-						breakpoint: 992,
-						settings: {
-						slidesToShow: 2,
-						slidesToScroll: 1,
+						{
+							breakpoint: 992,
+							settings: {
+								slidesToShow: 2,
+								slidesToScroll: 1,
+							}
+						},
+						{
+							breakpoint: 768,
+							settings: {
+								slidesToShow: 1,
+								slidesToScroll: 1
+							}
+						},
+						{
+							breakpoint: 481,
+							settings: {
+								slidesToShow: 1,
+								slidesToScroll: 1
+							}
 						}
-					},
-					{
-						breakpoint: 768,
-						settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
-						}
-					},
-					{
-						breakpoint: 481,
-						settings: {
-						slidesToShow: 1,
-						slidesToScroll: 1
-						}
-					}
-					// You can unslick at a given breakpoint now by adding:
-					// settings: "unslick"
-					// instead of a settings object
+						// You can unslick at a given breakpoint now by adding:
+						// settings: "unslick"
+						// instead of a settings object
 					]
 				});
-			}
 
+				$(".fp-slick-"+item+" + div .next").on("click", function () {
+					console.log("asd");
+					jQuery(".fp-slick-"+item+"").slick('slickNext');
+					
+				});
+
+				$(".fp-slick-"+item+" + div .prev").on("click", function () {
+					jQuery(".fp-slick-"+item+"").slick('slickPrev');
+				});
+			}
 
 		},
 		initFeaturedCommunities: function() {
@@ -69,7 +78,7 @@
 				infinite: true,
 				slidesToShow: 1,
 				speed: 1000,
-				autoplay: true,
+				autoplay: false,
 				autoplaySpeed: 5000,
 				slidesToScroll: 1,
 				arrows: true,
