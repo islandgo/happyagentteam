@@ -52,44 +52,163 @@ TABLE OF CONTENTS
  * 2. Navigation
  *
  *******************************************************/
-
-/* Sub Menu */
-#nav li {
-    position:relative;
-    display: inline-block;
+/* PETER */
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-Bold.woff2') format('woff2'),
+        url('Georgia-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
 }
 
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia.woff2') format('woff2'),
+        url('Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-BoldItalic.woff2') format('woff2'),
+        url('Georgia-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-Italic.woff2') format('woff2'),
+        url('Georgia-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-BoldItalic.woff2') format('woff2'),
+        url('Georgia-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia-Italic.woff2') format('woff2'),
+        url('Georgia-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('Georgia.woff2') format('woff2'),
+        url('Georgia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Seriffic Grunge';
+    src: url('./fonts/SerifficGrunge-Bold.woff2') format('woff2'),
+        url('./fonts/SerifficGrunge-Bold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('./fonts/Georgia-BoldItalic.woff2') format('woff2'),
+        url('./fonts/Georgia-BoldItalic.woff') format('woff');
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('./fonts/Georgia-Bold.woff2') format('woff2'),
+        url('./fonts/Georgia-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Georgia';
+    src: url('./fonts/Georgia-Italic.woff2') format('woff2'),
+        url('./fonts/Georgia-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+/* Sub Menu */
+#nav li{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+
+#nav li a{
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+  
 #nav .sub-menu {
     list-style: none outside none;
     margin: 0;
-    background: rgba(0,0,0,0.9) url("images/submenu-fixer.png");
     display: none;
     padding: 0;
     position: absolute;
  	width:100%;
- 	min-width:180px;
+    min-width:180px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-top: 12px;
+
 }
 #nav .sub-menu a {
     color: #FFFFFF;
     display: block;
     padding: 10px;
+    background: rgba(0,0,0,0.9);
+    text-align: center;
 }
 #nav .sub-menu a:hover {
-    background: none repeat scroll 0 0 var(--light);
-    color: var(--font-color-default);
+    background: none repeat scroll 0 0 #b2b2b2;
+    color: #000000;
     text-decoration: none;
 }
 #nav .sub-menu .sub-menu {
+    top: -16px;
+    left: initial;
     margin-left: 100%;
- 	top:0;
+    transform: translateX(0);
 }
 #nav li:hover > .sub-menu {
     display: block;
 }
 #nav .sub-menu li {
     position: relative;
+    display: block;
+    width: 100%;
 }
 
+/* PETER */
 
 /*******************************************************
  *
