@@ -908,8 +908,13 @@ hr {
 }
 
 /* ezek work start */
-
-
+.hp-team .primary-text, 
+.hp-team .secondary-text{
+    text-align: center;
+}
+.hp-team .primary-text {
+    padding: 92px 0 0 0;
+}
 
 /* ezek work end */
 

@@ -345,73 +345,75 @@
 
 	<!-- Hp About -->
 	<section class="hp-team">
-		<h2 class="primary-text">Meet</h2>
-		<h3 class="secondary-text">The Team</h3>
-
-		<div class="team-slick">
-			<div class="team-slick-item">
-				<div class="comp-team-container normal">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
+		<div class="container">
+			<h2 class="primary-text">Meet</h2>
+			<h3 class="secondary-text">The Team</h3>
+	
+			<div class="team-slick">
+				<div class="team-slick-item">
+					<div class="comp-team-container normal">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
 					</div>
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-				</div>
-				<div class="comp-team-container reverse">
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
-					</div>
-				</div>
-			</div>
-			<div class="team-slick-item">
-				<div class="comp-team-container normal">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
-					</div>
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-				</div>
-				<div class="comp-team-container reverse">
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
+					<div class="comp-team-container reverse">
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="team-slick-item">
-				<div class="comp-team-container normal">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
+				<div class="team-slick-item">
+					<div class="comp-team-container normal">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
 					</div>
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
+					<div class="comp-team-container reverse">
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+					</div>
 				</div>
-				<div class="comp-team-container reverse">
-					<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-					<div class="content">
-						<h2 class="team-primary-text">John Doe</h2>
-						<h3 class="team-secondary-text">Realtor</h3>
-						<p>
-							Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-						</p>
+				<div class="team-slick-item">
+					<div class="comp-team-container normal">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
+					</div>
+					<div class="comp-team-container reverse">
+						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
