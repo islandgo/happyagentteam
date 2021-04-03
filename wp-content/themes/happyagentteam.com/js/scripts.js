@@ -95,6 +95,38 @@
 		},
 		initFeaturedCommunities: function() {
 			/* Put featured communities code here */
+			var map = jQuery(".map-inner");
+			var mapOrigWidth = 1600;
+			var mapOrigHeight = 1187;
+			var container = jQuery(".map-wrap");
+			var containerWidth = container.width();
+			var scale = containerWidth / mapOrigWidth;
+			scale = scale > 1 ? scale : scale;
+			map.css({
+					transform: 'scale(' + scale + ')',
+					transformOrigin: '0 0'
+			});
+			container.css({
+					height: (mapOrigHeight * scale)
+			});
+
+			console.log('reszed');
+		},
+
+		fcMapHover: function() {
+			jQuery('.map-inner area').hover(
+					function() {
+							var currentID = jQuery(this).attr('data-area-id');
+							var target = jQuery('.map-hover-item[data-area-id="' + currentID + '"], .map-details > div[data-area-id="'+ currentID +'"]');
+
+							target.addClass('active');
+							console.log(target);
+							console.log(currentID);
+					},
+					function() {
+							jQuery('.map-hover-item, .map-details > div').removeClass('active');
+					}
+			);
 		},
 		initTestimonials: function() {
 			/* Put testimonials code here */
@@ -163,6 +195,8 @@
 
 		/* Initialize featured communities */
 		app.initFeaturedCommunities();
+
+		app.fcMapHover();
 		
 		/* Initialize testimonials */
 		app.initTestimonials();
@@ -186,6 +220,10 @@
 		app.initDetectScroll();
 
 	})
+
+	jQuery(window).on('resize', function(){
+		app.initFeaturedCommunities();
+	});
 
 
 })();
