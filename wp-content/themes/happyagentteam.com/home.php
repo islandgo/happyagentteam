@@ -10,34 +10,48 @@
 	<section class="hp-quick-search container">
 		<h2>Quick Search</h2>
 		<form class="comp-search-container">
-			<select name="cars" id="cars" aria-label="zip code">
-				<option value="volvo">City or Zip Code</option>
-				<option value="saab">Saab</option>
-				<option value="mercedes">Mercedes</option>
-				<option value="audi">Audi</option>
-			  </select>
-			<select name="cars" id="cars" aria-label="property type">
-				<option value="volvo">Property Type</option>
-				<option value="saab">Saab</option>
-				<option value="mercedes">Mercedes</option>
-				<option value="audi">Audi</option>
-			  </select>
-			<select name="cars" id="cars" aria-label="beds">
-				<option value="volvo">Beds</option>
-				<option value="saab">Saab</option>
-				<option value="mercedes">Mercedes</option>
-				<option value="audi">Audi</option>
-			  </select>
-			<select name="cars" id="cars" aria-label="baths">
-				<option value="volvo">Baths</option>
-				<option value="saab">Saab</option>
-				<option value="mercedes">Mercedes</option>
-				<option value="audi">Audi</option>
-			  </select>
-			  <input type="text" aria-label="min price" value="Min. Price">
-			  <input type="text" aria-label="max price" value="Max. Price">
-			  <a href="" class="serch-btn-primary">search</a>
-			  <input class="serch-btn-secondary" type="submit" value="advance" />
+			<div class="qs-xl">
+				<select aria-label="zip code">
+					<option value="volvo">City or Zip Code</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="qs-lg">
+				<select aria-label="property type">
+					<option value="volvo">Property Type</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="qs-sm">
+				<select aria-label="beds">
+					<option value="volvo">Beds</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="qs-sm">
+				<select aria-label="baths">
+					<option value="volvo">Baths</option>
+					<option value="saab">Saab</option>
+					<option value="mercedes">Mercedes</option>
+					<option value="audi">Audi</option>
+				</select>
+			</div>
+			<div class="qs-md">
+				<input type="text" aria-label="min price" placeholder="Min. Price">
+			</div>
+			<div class="qs-md">
+				<input type="text" aria-label="max price" placeholder="Max. Price">
+			</div>
+			<div class="qs-btn">
+				<a href="#" class="serch-btn-primary" aria-label="qs">search</a>
+				<input class="serch-btn-secondary" type="submit" value="advance" />
+			</div>
 		</form>
 	</section>
 
