@@ -498,9 +498,19 @@ button {
     border: 1px solid #cdbe9d;
 }
 
-.hp-about-us img {
-    background: url(images/About-img-bg.jpg);
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 1px solid #cdbe9d;
+    position: relative;
+    left: 50%;
+    transform: translateY(10px);
+    top: -53px;
+    z-index: -1;
 }
+
+/* Bryan */
 
 /* Featured start */
 .hp-properties {
@@ -508,7 +518,7 @@ button {
     padding: 99px 0 143px 0;
     background: url(images/fp-bg.jpg) no-repeat;
     background-size: cover;
-    background-position: center;
+    height: 100%;
 }
 .hp-properties::before {
     content: '';
@@ -522,7 +532,7 @@ button {
     pointer-events: none;
 }
 .hp-properties > * + * {
-    padding-top: 107px;
+    padding-top: 116px;
 }
 
 .hp-properties img {
@@ -533,6 +543,7 @@ button {
     display: flex;
     justify-content: space-between;
     padding: 0 160px 0 38px;
+    position: relative;
 }
 
 .fp-content > a {
@@ -588,13 +599,37 @@ button {
     position: relative;
 }
 
+.fp-slick-wrapper > .container {
+    position: relative;
+    z-index: 2;
+}
+
 .fp-slick-wrapper::before {
     content: '';
     position: absolute;
-    height: 289px;
+    height: 270px;
     background: #0abab5;
     width: 100%;
-    bottom: 100px;
+    bottom: 83px;
+}
+.fp-slick-wrapper::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background:  #cdbe9d;
+    right: 0;
+    bottom: 42px;
+}
+
+.fp-line-left::after {
+    content: '';
+    position: absolute;
+    width: 60%;
+    height: 1px;
+    background:  #cdbe9d;
+    left: 0;
+    bottom: 42px;
 }
 
 .fp-slick-2 {
@@ -611,12 +646,14 @@ button {
     position: absolute;
     display: flex;
     font-size: 13px;
-    right: 35%;  
+    right: 25.4%; 
     z-index: 1;
+    bottom: -11px;
 }
 
 .arrow-left{
-    left: 35%;
+    left: 25.4%;
+    bottom: -11px;
 }
 
 .arrow-holder button {
@@ -624,7 +661,7 @@ button {
 }
 
 .arrow-btn.prev{
-    padding-right: 55px;
+    padding-right: 70px;
 }
 
 .ai-font-arrow-b-p::before,
@@ -645,6 +682,62 @@ button {
     right: -26px;
     top: -8px; 
 }
+
+ 
+/* Bryan */
+
+/* Daniel */
+.hp-about-us {
+    position: relative;
+    background: #333;
+    padding: 0 0 170px 0;
+}
+
+.comp-about-us-container{
+    display: flex;
+}
+.comp-about-us-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 41.40% 58.60%;
+    grid-template-areas: 
+    "aboutImg aboutContent"
+    ;
+}
+
+.about-img {
+    grid-area: aboutImg;
+    position: relative;
+    z-index: 2;
+    background: url(images/about-img-bg.jpg);
+    margin-top: 137px;
+}
+
+.about-img img {
+    margin: -57px 0 0 0;
+}
+
+.content {
+    grid-area:aboutContent;
+    position: relative;
+    margin-left: -270px;
+    background: #fff;
+    padding: 251px 67px 0 345px;
+    height: calc(100% + 60px);
+    z-index: 1;
+}
+
+
+.about-primary-text {
+    font-family: 'Roboto',sans-serif;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    line-height: 36px;
+    padding: 36px 0; 
+    font-weight: 400;
+}
+
+/* Daniel */
 
 /*******************************************************
  *
