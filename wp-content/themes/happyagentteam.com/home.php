@@ -90,7 +90,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 				<div class="arrow-holder">
 					<div class="arrow-btn prev">
@@ -103,7 +102,7 @@
 			</div>
 		</div>
 
-		<div class="fp-slick-wrapper">
+		<div class="fp-slick-wrapper fp-line-left">
 			<div class="container">
 				<div class="fp-slick-2">
 					<div>
@@ -242,13 +241,21 @@
 
 	<!-- Hp About -->
 	<section class="hp-about-us">
-		<div class="comp-about-us-container">
-		<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/about-img.png">
+		<div class="container comp-about-us-container">
+			<div class="about-img">
+				<img alt="author" class="img-responsive"  src="<?php echo get_stylesheet_directory_uri() ?>/images/about-img.png">
+			</div>
 			<div class="content">
 				<h2 class="primary-text">About</h2>
 				<h3 class="secondary-text">Patrice Sandstrom</h3>
 				<p class="about-primary-text">It is with great pleasure that agent welcomes you to city, and to her website.</p>
-				<p class="about-secondary-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum optio sequi, in veritatis cumque cupiditate veniam ullam temporibus maxime eveniet perspiciatis ratione recusandae fuga alias rerum facere culpa commodi iste.</p>
+				<p class="about-secondary-text">The search is over. Her website is designed to be your one-stop for real 
+					estate in sample city. This is the moment that you should enjoy the most;
+					looking at the available properties in simple city; imagining yourself living in
+					the home that you have always dreamed about. You don't want just another
+					database that gives you rehashed property descriptions. You want to walk
+					around the neighborhood from the comfort of your own homne, You want to 
+					get a clear picture about life in simple city.</p>
 				<div class="global-btn">
 					<a href="" class="primary-btn">Read more</a>
 				</div>
