@@ -96,8 +96,8 @@
 					<div class="arrow-btn prev">
 						<button class="ai-font-arrow-b-p" >Previous</button>
 					</div>
-					<button class="ai-font-arrow-b-n" >Next</button>
 					<div class="arrow-btn next">
+						<button class="ai-font-arrow-b-n" >Next</button>
 					</div>
 				</div>
 			</div>
@@ -149,12 +149,12 @@
 						</div>
 					</div>
 				</div>
-				<div class="arrow-holder">
+				<div class="arrow-holder arrow-left">
 					<div class="arrow-btn prev">
 						<button class="ai-font-arrow-b-p" >Previous</button>
 					</div>
-						<button class="ai-font-arrow-b-n" >Next</button>
 					<div class="arrow-btn next">
+						<button class="ai-font-arrow-b-n" >Next</button>
 					</div>
 				</div>
 			</div>
@@ -210,8 +210,8 @@
 					<div class="arrow-btn prev">
 						<button class="ai-font-arrow-b-p" >Previous</button>
 					</div>
-					<button class="ai-font-arrow-b-n" >Next</button>
 					<div class="arrow-btn next">
+						<button class="ai-font-arrow-b-n" >Next</button>
 					</div>
 				</div>
 			</div>

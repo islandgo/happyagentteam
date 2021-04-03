@@ -287,8 +287,21 @@ button {
 .hp-properties {
     position: relative;
     padding: 99px 0 143px 0;
+    background: url(images/fp-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-
+.hp-properties::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.9);
+    filter: grayscale(100%);
+    pointer-events: none;
+}
 .hp-properties > * + * {
     padding-top: 107px;
 }
@@ -372,13 +385,47 @@ button {
 .arrow-btn {
     display: flex;
     cursor: pointer;
+    position: relative;
 }
 
 .arrow-holder {
+    position: absolute;
     display: flex;
     font-size: 13px;
+    right: 35%;  
+    z-index: 1;
 }
 
+.arrow-left{
+    left: 35%;
+}
+
+.arrow-holder button {
+    text-transform: uppercase;
+}
+
+.arrow-btn.prev{
+    padding-right: 55px;
+}
+
+.ai-font-arrow-b-p::before,
+.ai-font-arrow-b-n::before {
+    content: "\b0002";
+    position: absolute;
+    font-size: 33px;
+    color: #cdbe9d;
+}
+
+.ai-font-arrow-b-p::before{
+    transform: rotate(180deg);
+    left: -26px;
+    top: -8px;
+}
+
+.ai-font-arrow-b-n::before {
+    right: -26px;
+    top: -8px; 
+}
 
 /*******************************************************
  *
