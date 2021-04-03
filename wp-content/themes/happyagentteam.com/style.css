@@ -27,10 +27,10 @@ TABLE OF CONTENTS
  *
  *******************************************************/
 
-:root {
+ :root {
     /** Font default */
-    --font-family-default: 'Open Sans', sans-serif;
-    --font-family-title: 'Noto Serif', serif;
+    --font-family-default: 'Roboto', sans-serif;
+    --font-family-title: 'Playfair Display', serif;
     --font-size-default: 14px;
     --font-size-title: 18px;
     --font-color-default: #000000;
@@ -153,13 +153,43 @@ TABLE OF CONTENTS
 }
 
 /* Sub Menu */
-#nav li{
+#nav li,
+.nav2 li{
     display: inline-block;
     vertical-align: middle;
     position: relative;
 }
 
-#nav li a{
+#nav > li::after,
+.nav2 > li::after{
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background: #0abab5;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#nav > li:hover::after,
+.nav2 > li:hover::after{
+    opacity: 1;
+    width: 100%;
+}
+
+#nav li a,
+.nav2 li a{
+    font-family: 'Georgia';
+    font-size: 16px;
+    text-transform: uppercase;
     color: #fff;
     text-transform: uppercase;
     -webkit-transition: all 0.4s ease-in-out;
@@ -168,44 +198,233 @@ TABLE OF CONTENTS
     transition: all 0.4s ease-in-out;
 }
   
-#nav .sub-menu {
+#nav .sub-menu,
+.nav2 .sub-menu {
     list-style: none outside none;
     margin: 0;
     display: none;
     padding: 0;
     position: absolute;
- 	width:100%;
-    min-width:180px;
+    width: 100%;
+    min-width: 198px;
     left: 50%;
     transform: translateX(-50%);
-    padding-top: 12px;
-
+    padding-top: 15px;
 }
-#nav .sub-menu a {
+
+#nav .sub-menu a,
+.nav2 .sub-menu a {
     color: #FFFFFF;
     display: block;
-    padding: 10px;
-    background: rgba(0,0,0,0.9);
+    padding: 15px 10px;
+    background: #cdbe9d;
     text-align: center;
 }
-#nav .sub-menu a:hover {
-    background: none repeat scroll 0 0 #b2b2b2;
-    color: #000000;
+#nav .sub-menu a:hover,
+.nav2 .sub-menu a:hover {
+    background: #b2b2b2;
     text-decoration: none;
 }
-#nav .sub-menu .sub-menu {
+#nav .sub-menu .sub-menu,
+.nav2 .sub-menu .sub-menu {
     top: -16px;
     left: initial;
     margin-left: 100%;
     transform: translateX(0);
 }
-#nav li:hover > .sub-menu {
-    display: block;
+
+#nav li:hover > .sub-menu,
+.nav2 li:hover > .sub-menu {
+    display: block !important;
 }
-#nav .sub-menu li {
+
+#nav .sub-menu li,
+.nav2 .sub-menu li {
     position: relative;
     display: block;
     width: 100%;
+}
+
+header.header{
+    font-size: 0;
+    position: fixed;
+    padding: 18px 0;
+    opacity: 0;
+    z-index: 1010;
+    top: 0;
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.header.show-fixed {
+    background: rgba(255,255,255,.90);
+    padding: 0;
+    top: 20px;
+}
+
+.header.show-fixed .nav2 > li > a{
+    color: #656565;
+}
+
+.header-inner .logo-holder img.fixed{
+    display: none;
+}
+
+.header.show-fixed .header-inner .logo-holder img.fixed {
+    display: block;
+    margin: -15px auto -12px;
+}
+
+.header.show-fixed .header-inner .logo-holder img.main{
+    display: none;
+}
+
+.header.show-fixed .aios-split-nav{
+    padding: 0 20px;
+}
+
+.header-inner > .row {
+    display: flex;
+    align-items: center;
+}
+
+.header-inner > .row::before{
+    display: none;
+}
+
+.header-inner .logo-holder img {
+    margin: 0 auto;
+}
+
+.aios-split-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 94px 20px 0;
+}
+
+/* Slideshow */
+.hp-slideshow{
+    position: relative;
+    font-size: 0;
+}
+
+.hp-slideshow .cycle-slide::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+66 */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 66%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 66%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 66%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    z-index: 1;
+    pointer-events: none;
+}
+
+/* Quick Search */
+.hp-quick-search {
+    font-size: 0;
+    position: relative;
+    padding-top: 51px;
+    padding-bottom: 72px;
+}
+
+.hp-quick-search h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 34px;
+    color: #656565;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 0 28px;
+}
+
+form.comp-search-container {
+    display: flex;
+    gap: 4px;
+}
+
+.qs-xl{
+    width: 20.7%;
+}
+
+.qs-lg{
+    width: 17%;
+}
+
+.qs-sm{
+    width: 8.2%;
+}
+
+.qs-md{
+    width: 10%;
+}
+
+.qs-xl select,
+.qs-lg select,
+.qs-sm select,
+.qs-md input,
+.qs-btn input,
+.qs-btn a{
+    width: 100%;
+    height: 38px;
+    width: 100%;
+    border: 1px solid #cacaca;
+    outline: none;
+    -webkit-appearance: none;
+    appearance: none;
+    -moz-appearance: none;
+    font-size: 12px;
+    color: #656565;
+    padding: 0 14px;
+    background: transparent url(images/qs-arrow.png) no-repeat scroll right 12px center;
+}
+
+.qs-btn {
+    width: 22.5%;
+    display: flex;
+    gap: 4px;
+    margin-left: 8px;
+}
+
+.qs-btn input,
+.qs-btn a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0abab5;
+    border: none;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .010em;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.qs-btn input{
+    background: #cdbe9d;
+}
+
+.qs-btn input:hover{
+    background: #0abab5;
+}
+
+.qs-btn a:hover{
+    background: #cdbe9d;
+}
+
+.qs-md input{
+    background: transparent;
 }
 
 /* PETER */
