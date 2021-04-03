@@ -509,6 +509,7 @@ img.img-responsive.map-trans {
 
 /* Global */
 
+
 body{
 	font-family: 'Roboto', sans-serif;
 	font-size: var(--font-size-default);
@@ -613,39 +614,34 @@ hr {
 
 .fp-content {
     display: flex;
-    justify-content: space-between;
     padding: 0 160px 0 38px;
     position: relative;
 }
 
-.fp-content > a {
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-}
-
 .fp-content img {
+    display: inline-block;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
+.fp-description {
+    margin-left: 48px;
+}
+
 .fp-content img:hover {
     filter: grayscale(0);
 }
 
-.fp-description {
-    padding-left: 50px;
-}
-
 .fp-slick-2 .fp-description {
-    padding-right: 50px;
+    transform: translateX(12px);
+}
+.fp-slick-2 img {
+    margin: 0 0 0 63px;
 }
 
-.fp-description p {
-    padding: 75px 0 23px;
-}
+
 
 .fp-description .fp-secondary-style {
     font-family: 'Playfair Display', serif;
@@ -657,6 +653,9 @@ hr {
 .fp-primary-style {
     font-size: 21px;
     color: #fff;
+    padding: 75px 0 23px;
+    line-height: 24px;
+    max-width: 290px;
 }
 
 .fp-slick-2 .fp-content {
@@ -683,6 +682,7 @@ hr {
     background: #0abab5;
     width: 100%;
     bottom: 83px;
+    pointer-events: none;
 }
 .fp-slick-wrapper::after {
     content: '';
@@ -714,6 +714,19 @@ hr {
     position: relative;
 }
 
+.arrow-holder .prev:hover,
+.arrow-holder .next:hover {
+    opacity: 0.5;
+}
+
+.arrow-holder .prev,
+.arrow-holder .next {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
 .arrow-holder {
     position: absolute;
     display: flex;
@@ -721,6 +734,7 @@ hr {
     right: 25.4%; 
     z-index: 1;
     bottom: -11px;
+    
 }
 
 .arrow-left{
@@ -759,10 +773,37 @@ hr {
 /* Bryan */
 
 /* Daniel */
+/* About Us */
 .hp-about-us {
     position: relative;
-    background: #333;
-    padding: 0 0 170px 0;
+    background: rgba(255, 255, 255, .9);
+    padding: 0 0 177px;
+}
+.hp-about-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 257px;
+    background: #fff;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.hp-about-us::after {
+    content: "";
+    position: absolute;
+    background-position: center;
+    background: url(images/about-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    filter: grayscale(100%);
 }
 
 .comp-about-us-container{
@@ -781,35 +822,88 @@ hr {
     grid-area: aboutImg;
     position: relative;
     z-index: 2;
+    margin-top: 137px;
+    margin-right: -15px;
+}
+
+.about-img::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 142px);
+    bottom: 146px;
+    left: 0;
     background: url(images/about-img-bg.jpg);
     margin-top: 137px;
+    margin-right: -15px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    filter: blur(2px);
 }
 
 .about-img img {
     margin: -57px 0 0 0;
+    position: relative;
+    z-index: 1;
 }
 
-.content {
-    grid-area:aboutContent;
+.hp-about-us .content {
+    grid-area: aboutContent;
     position: relative;
     margin-left: -270px;
     background: #fff;
-    padding: 251px 67px 0 345px;
+    padding: 251px 94px 0 368px;
     height: calc(100% + 60px);
     z-index: 1;
 }
 
 
 .about-primary-text {
+    text-align: left;
     font-family: 'Roboto',sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 0.05em;
     line-height: 36px;
-    padding: 36px 0; 
-    font-weight: 400;
+    padding: 36px 0;
+    font-weight: 500;
 }
 
+.about-secondary-text {
+    text-align: justify;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.global-btn .primary-btn {
+    color: #656565;
+    font-size: 16px;
+    border:1px solid #cacaca;
+
+}
+
+.global-btn .primary-btn:hover {
+    background: #0abab5;
+    color: #fff;
+    border:1px solid #0abab5;
+}
+
+.content .global-btn {
+    padding-top: 43px;
+}
 /* Daniel */
+
+/* Footer */
+/* Ipe */
+/* .footer {
+
+}
+.upper-footer {
+    
+} */
+
+/* Ipe */
 
 /*******************************************************
  *
