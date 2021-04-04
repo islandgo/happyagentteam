@@ -571,18 +571,6 @@ button {
     border: 1px solid #cdbe9d;
 }
 
-hr {
-    margin-top: 0;
-    margin-bottom: 0;
-    border-top: 0;
-    border-bottom: 1px solid #cdbe9d;
-    position: relative;
-    left: 50%;
-    transform: translateY(10px);
-    top: -53px;
-    z-index: -1;
-}
-
 /* Bryan */
 
 /* Featured start */
@@ -896,12 +884,105 @@ hr {
 
 /* Footer */
 /* Ipe */
-/* .footer {
-
+.footer {
+    padding: 82px 0 51px 0;
+    font-size: 0;
+    position: relative;
 }
+
 .upper-footer {
-    
-} */
+    display: flex;
+    justify-content: center;
+} 
+
+.upper-footer .pad-right {
+    padding-right: 29px;
+}
+
+.upper-footer .pad-left {
+    padding-left: 29px;
+}
+
+.middle-footer {
+    padding: 60px 0 76px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #656565;
+    font-size: 18px;
+}
+
+.middle-footer > * + * {
+    padding: 16px 0 0 0;
+}
+
+.middle-footer span {
+    color: #cdbe9d;      
+}
+
+.middle-footer span,
+.middle-footer a,
+.lower-footer a {
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.middle-footer span:hover,
+.middle-footer a:hover,
+.lower-footer a:hover {
+    opacity: 0.6;
+}
+
+.footer-smi {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-smi span {
+    color: #fff;
+}
+
+.footer-smi a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    background: #cdbe9d;
+    border-radius: 50%;
+}
+
+.footer-smi a + a {
+    margin-left: 16px;
+}
+
+.lower-footer {
+    text-align: center;
+}
+
+.lower-footer p {
+    color: #6f6f6f;
+    font-size: 14px;
+    padding: 43px 0 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.lower-footer .mls {
+    color: #cdbe9d;
+    font-size: 27px;
+}
+
+hr {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-top: 0;
+    border-bottom: 1px solid #cccccc;
+    position: absolute; 
+    bottom: 155px;
+    width: 100%;
+}
 
 /* Ipe */
 
