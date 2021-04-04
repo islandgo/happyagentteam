@@ -68,7 +68,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -82,7 +82,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -96,7 +96,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -124,7 +124,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Coming</h2>
 								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -138,7 +138,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Coming</h2>
 								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -152,7 +152,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Coming</h2>
 								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -182,7 +182,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -196,7 +196,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -210,7 +210,7 @@
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite 400 El Segundo CA 90245</p>
+								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
 									<a href="#">View more details</a>
@@ -385,13 +385,7 @@
 				<h2 class="primary-text">About</h2>
 				<h3 class="secondary-text">Patrice Sandstrom</h3>
 				<p class="about-primary-text">It is with great pleasure that agent welcomes you to city, and to her website.</p>
-				<p class="about-secondary-text">The search is over. Her website is designed to be your one-stop for real 
-					estate in sample city. This is the moment that you should enjoy the most;
-					looking at the available properties in simple city; imagining yourself living in
-					the home that you have always dreamed about. You don't want just another
-					database that gives you rehashed property descriptions. You want to walk
-					around the neighborhood from the comfort of your own homne, You want to 
-					get a clear picture about life in simple city.</p>
+				<p class="about-secondary-text">The search is over. Her website is designed to be your one-stop for real estate in sample city. This is the moment that you should enjoy the most; looking at the available properties in simple city; imagining yourself living in the home that you have always dreamed about. You don't want just another database that gives you rehashed property descriptions. You want to walk around the neighborhood from the comfort of your own homne, You want to get a clear picture about life in simple city.</p>
 				<div class="global-btn">
 					<a href="" class="primary-btn">Read more</a>
 				</div>
