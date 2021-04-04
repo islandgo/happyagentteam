@@ -1131,6 +1131,9 @@ hr {
 }
 
 /* ezek work start */
+.hp-team {
+    padding-bottom: 50px;
+}
 .hp-team .primary-text, 
 .hp-team .secondary-text{
     text-align: center;
