@@ -114,7 +114,7 @@
 		},
 
 		fcMapHover: function() {
-			jQuery('.map-inner area').hover(
+			jQuery('.map-wrap area').hover(
 					function() {
 							var currentID = jQuery(this).attr('data-area-id');
 							var target = jQuery('.map-hover-item[data-area-id="' + currentID + '"], .map-details > div[data-area-id="'+ currentID +'"]');
@@ -127,6 +127,11 @@
 							jQuery('.map-hover-item, .map-details > div').removeClass('active');
 					}
 			);
+
+			jQuery(".fire-main-map.alameda").click(function(){
+				jQuery('.map-main-frame').detach().appendTo('.ip-container #content').css({'display' : 'none'});
+				jQuery('.map-alameda').css({'display' : 'block'});
+			  });
 		},
 		initTestimonials: function() {
 			/* Put testimonials code here */
