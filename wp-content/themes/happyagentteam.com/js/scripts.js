@@ -141,6 +141,7 @@
 			jQuery('.team-slick').slick({
 				dots: false,
 				infinite: true,
+				fade: true,
 				slidesToShow: 1,
 				speed: 1000,
 				autoplay: false,

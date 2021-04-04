@@ -1007,8 +1007,57 @@ hr {
     text-align: center;
 }
 .hp-team .primary-text {
-    padding: 92px 0 0 0;
+    padding: 92px 0 9px 0;
 }
+
+.comp-team-container {
+    display: grid;
+    grid-template-areas: "contentPrimary normal" "reverse contentSecondary";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.content-primary {
+    grid-area: contentPrimary;
+}
+.normal {
+    grid-area: normal;
+}
+.reverse {
+    grid-area: reverse;
+}
+.content-secondary {
+    grid-area: contentSecondary;
+}
+
+.hp-team .content {
+    text-align: center;
+}
+
+.hp-team .content .team-primary-text {
+    font-size: 32px;
+    font-family: 'PlayfairDisplay Regular', serif;
+    text-transform: uppercase;
+    color: #cdbe9d;
+    padding: 53px 0 11px 0;
+}
+
+.hp-team .content .team-secondary-text {
+    font-size: 22px;
+    font-family: 'Roboto regular',sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 500;
+    color: #000000;
+    padding: 0 0 42px 0;
+}
+
+.hp-team .content p {
+    font-size: 15px;
+    font-family: 'Roboto light', sans-serif;
+    line-height: 30px;
+    color: #535353;
+    padding: 0 90px 0 72px;
+}
+
 
 /* ezek work end */
 

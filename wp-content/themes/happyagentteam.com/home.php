@@ -345,7 +345,67 @@
 	
 			<div class="team-slick">
 				<div class="team-slick-item">
-					<div class="comp-team-container normal">
+					<div class="comp-team-container">
+						<div class="content content-primary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
+						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content content-secondary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-slick-item">
+					<div class="comp-team-container">
+						<div class="content content-primary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
+						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content content-secondary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="team-slick-item">
+					<div class="comp-team-container">
+						<div class="content content-primary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
+						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="content content-secondary">
+							<h2 class="team-primary-text">John Doe</h2>
+							<h3 class="team-secondary-text">Realtor</h3>
+							<p>
+								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+							</p>
+						</div>
+					</div>
+				</div>
+				<!-- <div class="team-slick-item">
+					<div class="comp-team-container ">
 						<div class="content">
 							<h2 class="team-primary-text">John Doe</h2>
 							<h3 class="team-secondary-text">Realtor</h3>
@@ -387,29 +447,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				<div class="team-slick-item">
-					<div class="comp-team-container normal">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-					</div>
-					<div class="comp-team-container reverse">
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-					</div>
-				</div>
+				</div> -->
 			</div>
 		</div>
 
