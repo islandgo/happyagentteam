@@ -492,13 +492,61 @@ img.img-responsive.map-trans {
     font-size: 18px;
     color: #656565;
     text-transform: uppercase;
+    line-height: 30px;
     -webkit-transition: all .325s ease-in-out;
     -moz-transition: all .325s ease-in-out;
     -ms-transition: all .325s ease-in-out;
     transition: all .325s ease-in-out;
     transform: translateZ(0) !important;
+    line-height: 30px;
+    text-shadow:
+    -1px -1px 0 #fff,  
+     1px -1px 0 #fff,
+     -1px 1px 0 #fff,
+      1px 1px 0 #fff;
 }
 
+.map-det-font::after {
+    content: '';
+    position: absolute;
+    top: -18px;
+    left: 46%;
+    transform: translateX(-50%);
+    pointer-events: none;
+    background: url(images/map/pin-map.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 18px;
+    height: 22px;
+    pointer-events: none;
+}
+
+.frame1-det-1.map-det-font {
+    top: 698px;
+    left: 687px;
+}
+
+.frame2-det-2.map-det-font {
+    top: 390px;
+    left: 888px;
+}
+
+.map-alameda {
+    display: none;
+}
+
+.fc-info-holder {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.fc-title h2{
+    font-weight: 500;
+    font-size: 64px;
+    text-transform: uppercase;
+    color: #cdbe9d;
+}
 /* PETER */
 
 /*******************************************************
