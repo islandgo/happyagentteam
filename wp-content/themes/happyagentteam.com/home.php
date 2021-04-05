@@ -393,7 +393,7 @@
 		</div>
 	</section>
 
-	<!-- Hp About -->
+	<!-- Hp Team -->
 	<section class="hp-team">
 		<div class="container">
 			<h2 class="primary-text">Meet</h2>
@@ -402,22 +402,22 @@
 			<div class="team-slick">
 				<div class="team-slick-item">
 					<div class="comp-team-container">
-						<div class="content content-primary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-						<div class="content content-secondary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
+							<div class="content content-primary">
+								<h2 class="team-primary-text">John Doe</h2>
+								<h3 class="team-secondary-text">Realtor</h3>
+								<p>
+									Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+								</p>
+							</div>
+							<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
+							<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
+							<div class="content content-secondary">
+								<h2 class="team-primary-text">John Doe</h2>
+								<h3 class="team-secondary-text">Realtor</h3>
+								<p>
+									Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
+								</p>
+							</div>
 					</div>
 				</div>
 				<div class="team-slick-item">
@@ -511,9 +511,11 @@
 
 	<!-- Hp Vision -->
 	<section class="hp-tagline">
-		<p>
-			At Sandstrom Group we believe successful results & a quality client experience are our responsibility. Our goal is to provide a #happyexperience for our #happysellers & #happybuyers. Give us the opportunity to exceed your expectations!
-		</p>
+		<div class="container">
+			<p>
+				At Sandstrom Group we believe successful results & a quality client experience are our responsibility. Our goal is to provide a #happyexperience for our #happysellers & #happybuyers. Give us the opportunity to exceed your expectations!
+			</p>
+		</div>
 	</section>
 
 	<!-- Hp Vision -->
@@ -536,34 +538,39 @@
 		<h2 class="primary-text">We're Social!</h2>
 		<h3 class="secondary-text">Follow us</h3>
 		<div class="comp-social-container">
-			<div class="social-item"><a href="" class="ai-font-facebook"></a></div>
-			<div class="social-item"><a href="" class="ai-font-instagram"></a></div>
-			<div class="social-item"><a href="" class="ai-font-linkedin"></a></div>
-			<div class="social-item"><a href="" class="ai-font-youtube"></a></div>
-			<div class="social-item"><a href="" class="ai-font-yelp"></a></div>
+			<div class="social-item item-1"><a href="" class="ai-font-facebook"></a></div>
+			<div class="social-item item-2"><a href="" class="ai-font-instagram"></a></div>
+			<div class="social-item item-3"><a href="" class="ai-font-linkedin"></a></div>
+			<div class="social-item item-4"><a href="" class="ai-font-youtube"></a></div>
+			<div class="social-item item-5"><a href="" class="ai-font-yelp"></a></div>
 		</div>
 	</section>
 
 	<!-- Hp git -->
 	<section class="hp-git">
-		<h2 class="primary-text">Get in Touch</h2>
-		<div class="git-form">
-			<div class="form-md pad-right">
-				<label for="git-fname">Name</label>
-				<input type="text" id="name" placeholder="Name">
+		<div class="container">
+			<h2 class="primary-text">Get in Touch</h2>
+			<div class="secondary-text-holder">
+				<p class="secondary-text">Keep Up To Date With The Latest Market Trends And Opportunities</p>
 			</div>
-		
-			<div class="form-md pad-right">
-				<label for="git-email">Email</label>
-				<input type="text" id="git-email" placeholder="Email">
-			</div>
+			<div class="git-form">
+				<div class="form-md pad-right">
+					<label for="git-fname">Name</label>
+					<input type="text" id="name" placeholder="Name">
+				</div>
 			
-			<div class="form-lg">
-				<label for="git-message">Message</label>
-				<textarea  id="git-message" placeholder="Message"></textarea>
-			</div>
-			<div class="global-btn">
-				<input type="submit" value="Send">
+				<div class="form-md pad-right">
+					<label for="git-email">Email</label>
+					<input type="text" id="git-email" placeholder="Email">
+				</div>
+			
+				<div class="form-md">
+					<label for="git-message">Message</label>
+					<textarea  id="git-message" placeholder="Message"></textarea>
+				</div>
+				<div class="global-btn">
+					<input type="submit" value="Send" class="primary-btn">
+				</div>
 			</div>
 		</div>
 
