@@ -521,17 +521,72 @@ img.img-responsive.map-trans {
     pointer-events: none;
 }
 
+.map-alameda .map-det-font::after{
+    display: none;
+}
+
 .frame1-det-1.map-det-font {
-    top: 698px;
-    left: 687px;
+    top: 695px;
+    left: 694px;
+}
+
+.frame1-det-2.map-det-font {
+    top: 387px;
+    left: 881px;
+}
+
+.frame2-det-1.map-det-font {
+    top: 516px;
+    left: 836px;
 }
 
 .frame2-det-2.map-det-font {
-    top: 390px;
-    left: 888px;
+    top: 337px;
+    left: 718px;
 }
 
-.map-alameda {
+.frame2-det-3.map-det-font {
+    top: 762px;
+    left: 939px;
+}
+
+.frame2-det-4.map-det-font {
+    top: 960px;
+    left: 1066px;
+}
+
+.frame2-det-5.map-det-font {
+    top: 658px;
+    left: 1321px;
+}
+
+.frame2-det-6.map-det-font {
+    top: 716px;
+    left: 1300px;
+}
+
+.frame2-det-7.map-det-font {
+    top: 530px;
+    left: 716px;
+}
+
+.frame2-det-8.map-det-font {
+    top: 689px;
+    left: 1410px;
+}
+
+.frame2-det-9.map-det-font {
+    top: 430px;
+    left: 800px;
+}
+
+.frame2-det-10.map-det-font {
+    top: 402px;
+    left: 635px;
+}
+
+.map-alameda,
+.map-costa {
     display: none;
 }
 
@@ -541,11 +596,121 @@ img.img-responsive.map-trans {
     left: 0;
 }
 
-.fc-title h2{
+.fc-title h2,
+.fc-list-title h2{
     font-weight: 500;
     font-size: 64px;
     text-transform: uppercase;
     color: #cdbe9d;
+}
+
+.fc-info-holder {
+    position: absolute;
+    top: 353px;
+    left: 275px;
+    z-index: 11;
+}
+
+.fc-list-title h2{
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.fc-list {
+    padding: 80px 0 0;
+}
+
+.fc-list a{
+    position: relative;
+    font-size: 20px;
+    color: #656565;
+    text-transform: uppercase;
+    padding-left: 30px;
+    display: block;
+    margin: 0 0 33px;
+}
+
+.fc-list a::after {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    top: 5px;
+    left: 0;
+    background: #09b0ac;
+    pointer-events: none;
+}
+
+.fc-list a::before {
+    content: '';
+    position: absolute;
+    bottom: -9px;
+    left: 16px;
+    width: 0;
+    height: 2px;
+    background: #c0b293;
+    pointer-events: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    opacity: 0;
+}
+
+.fc-list a.active::before{
+    width: 109px;
+    opacity: 1;
+}
+
+.map-hover-item.map2-hover-1 {
+    top: 319px;
+    left: 645px;
+}
+
+.map-hover-item.map2-hover-2 {
+    top: 281px;
+    left: 676px;
+}
+
+.map-hover-item.map2-hover-3 {
+    top: 683px;
+    left: 893px;
+}
+
+.map-hover-item.map2-hover-4 {
+    top: 884px;
+    left: 972px;
+}
+
+.map-hover-item.map2-hover-5 {
+    top: 634px;
+    left: 1246px;
+}
+
+.map-hover-item.map2-hover-6 {
+    top: 692px;
+    left: 1278px;
+}
+
+.map-hover-item.map2-hover-7 {
+    top: 499px;
+    left: 666px;
+}
+
+.map-hover-item.map2-hover-8 {
+    top: 667px;
+    left: 1397px;
+}
+
+.map-hover-item.map2-hover-9 {
+    top: 416px;
+    left: 799px;
+}
+
+.map-hover-item.map2-hover-10 {
+    top: 395px;
+    left: 698px;
 }
 /* PETER */
 

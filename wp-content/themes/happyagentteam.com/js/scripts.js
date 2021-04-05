@@ -114,17 +114,17 @@
 		},
 
 		fcMapHover: function() {
-			jQuery('.map-wrap area').hover(
+			jQuery('.map-wrap area, .fc-list a').hover(
 					function() {
 							var currentID = jQuery(this).attr('data-area-id');
-							var target = jQuery('.map-hover-item[data-area-id="' + currentID + '"], .map-details > div[data-area-id="'+ currentID +'"]');
+							var target = jQuery('.map-hover-item[data-area-id="' + currentID + '"], .map-details > div[data-area-id="'+ currentID +'"], .fc-list > a[data-area-id="'+ currentID +'"]');
 
 							target.addClass('active');
 							console.log(target);
 							console.log(currentID);
 					},
 					function() {
-							jQuery('.map-hover-item, .map-details > div').removeClass('active');
+							jQuery('.map-hover-item, .map-details > div, .fc-list > a').removeClass('active');
 					}
 			);
 
@@ -132,6 +132,12 @@
 				jQuery('.map-main-frame').detach().appendTo('.ip-container #content').css({'display' : 'none'});
 				jQuery('.map-alameda').css({'display' : 'block'});
 			  });
+
+			  jQuery(".fire-main-map.costa").click(function(){
+				jQuery('.map-main-frame').detach().appendTo('.ip-container #content').css({'display' : 'none'});
+				jQuery('.map-costa').css({'display' : 'block'});
+			  });
+
 		},
 		initTestimonials: function() {
 			/* Put testimonials code here */
