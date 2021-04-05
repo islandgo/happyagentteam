@@ -518,16 +518,42 @@
 
 	<!-- Hp Vision -->
 	<section class="hp-clients">
-		<div class="client-flipster">
-			<h2 class="primary-text">Our happy clients</h2>
-			<h3>Jame Doe</h3>
-			<h4>Realitor</h4>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
-			</p>
-		</div>
+
 		<div class="global-btn">
 			<a href="" class="primary-btn">View all</a>
+		</div>
+		<div class="container">
+			<div class="client-slick">
+				<div class="client-item">
+					<h2 class="primary-text">Our happy clients</h2>
+					<h3>Jame Doe</h3>
+					<h4>Realitor</h4>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
+					</p>
+				</div>
+			
+				<div class="client-item">
+					<h2 class="primary-text">Our happy clients</h2>
+					<h3>Jame Doe</h3>
+					<h4>Realitor</h4>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
+					</p>
+				</div>
+	
+				<div class="client-item">
+					<h2 class="primary-text">Our happy clients</h2>
+					<h3>Jame Doe</h3>
+					<h4>Realitor</h4>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
+					</p>
+				</div>
+	
+			
+			</div>
+
 		</div>
 	</section>
 
@@ -579,5 +605,6 @@
 
 
 	<!-- your home html -->
+
 
 <?php get_footer(); ?>
