@@ -8,8 +8,8 @@
 		<footer class="footer">
 			<div class="container">
 				<div class="upper-footer">
-				<img alt="logo" class="img-responsive pad-right" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-ps.png">
-				<img alt="logo" class="img-responsive pad-left" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-luxury.png">
+					<img alt="logo" class="img-responsive pad-right" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-ps.png">
+					<img alt="logo" class="img-responsive pad-left" src="<?php echo get_stylesheet_directory_uri() ?>/images/footer-logo-luxury.png">
 				</div>
 				<div class="middle-footer">
 					<div class="footer-phone">
