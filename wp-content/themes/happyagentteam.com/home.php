@@ -629,31 +629,37 @@
 		</div>
 		<div class="container">
 			<div class="client-slick">
-				<div class="client-item">
-					<h2 class="primary-text">Our happy clients</h2>
-					<h3>Jame Doe</h3>
-					<h4>Realitor</h4>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
-					</p>
-				</div>
+					<div>
+						<div class="client-item">
+								<h2 class="primary-text">Our happy clients</h2>
+								<h3>Jane Doe</h3>
+								<h4>Realitor</h4>
+								<p>
+									We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
+								</p>
+						</div>
+					</div>
 			
-				<div class="client-item">
-					<h2 class="primary-text">Our happy clients</h2>
-					<h3>Jame Doe</h3>
-					<h4>Realitor</h4>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
-					</p>
+				<div>
+					<div class="client-item">
+						<h2 class="primary-text">Our happy clients</h2>
+						<h3>Jane Doe</h3>
+						<h4>Realitor</h4>
+						<p>
+							We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
+						</p>
+					</div>
 				</div>
 	
-				<div class="client-item">
-					<h2 class="primary-text">Our happy clients</h2>
-					<h3>Jame Doe</h3>
-					<h4>Realitor</h4>
-					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque amet pariatur illum neque doloremque cupiditate? Quas enim facere aut deserunt eaque nostrum! Deleniti dolorem iure numquam corporis necessitatibus fugiat at?
-					</p>
+				<div>
+					<div class="client-item">
+						<h2 class="primary-text">Our happy clients</h2>
+						<h3>Jane Doe</h3>
+						<h4>Realitor</h4>
+						<p>
+							We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
+						</p>
+					</div>
 				</div>
 	
 				<div class="client-item">
