@@ -1,11 +1,41 @@
+.client-slick:not(.slick-initialized) > div:not(:first-child),
+.team-slick:not(.slick-initialized) > div:not(:first-child),
+.fp-slick-1:not(.slick-initialized) > div:not(:first-child),
+.fp-slick-2:not(.slick-initialized) > div:not(:first-child),
+.fp-slick-3:not(.slick-initialized) > div:not(:first-child){
+    display: none;
+}
+
+.hp-clients {
+    padding: 107px 0 228px 0;
+    background: rgba(255, 255, 255, 0.9);
+    position: relative;
+    z-index: 1;
+}
+
+.hp-clients::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: url(images/testimonial-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+    pointer-events: none;
+    opacity: 0.12;
+}
+
+
 .hp-clients .slick-slider {
     margin-left: -12%;
     margin-right: -12%;
 }
 
 .hp-clients .slick-list {
-    padding-left: 15%!important;
-    padding-right: 15%!important;
+    padding-left: 10%!important;
+    padding-right: 10%!important;
 }
 
 .hp-clients .slick-track {
@@ -39,36 +69,79 @@
 }
 
 .hp-clients .slick-snext {
-    opacity: 1;
+    opacity: 0.9;
     transform: translate3d(10%, 0, -10px);
     z-index: 1;
     perspective: 1000px;
 }
 
 .hp-clients .slick-snext2 {
-    opacity: 1;
+    opacity: 0.5;
     transform: translate3d(20%, 0, -20px);
     z-index: 0;
     perspective: 1000px;
 }
 
 .hp-clients .slick-sprev {
-    opacity: 1;
+    opacity: 0.9;
     transform: translate3d(-10%, 0, -10px);
 }
 
 .hp-clients .slick-sprev2 {
-    opacity: 1;
+    opacity: 0.5;
     transform: translate3d(-20%, 0, -20px);
 }
 
 .hp-clients .client-item {
+    text-align: center;
     display: block;
     width: 100%;
     min-height: 300px;
     background: #ffffff;
-    box-shadow: inset 0px 0px 0px 3px #000000;
+    padding: 123px 0 215px 0;
+    position: relative;
 }
+
+.hp-clients .client-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 15px;  
+    width: 100%;
+    background: #09b0ac;
+}
+
+.hp-clients h3{
+    padding: 80px 0 6px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.hp-clients h4 {
+    padding-bottom: 38px;
+    font-size: 18px;
+    color: #9d9d9d;
+    font-style: italic;
+}
+
+.hp-clients p {
+    font-size: 15px;
+    color: #535353;
+    line-height: 30px;
+    max-width: 777px;
+    margin: 0 auto;
+}
+
+.hp-clients .primary-btn {
+    position: absolute;
+    bottom: 108px;
+    left: 50%;
+    transform: translateX(-50%);
+} 
 
 /*Slick Dots*/
 
@@ -78,7 +151,7 @@
 
 .hp-clients .slick-dots {
     position: absolute;
-    bottom: -25px;
+    bottom: 111px;
     display: block;
     width: 100%;
     padding: 0;
@@ -137,23 +210,29 @@
 
 .hp-clients .slick-dots li.slick-active:before {
     opacity: .75;
-    color: black;
+    color: #09b0ac;
 }
 
 /* Arrows */
 
 .hp-clients .slick-prev {
-    left: -25px;
+    left:  188px;
+    
 }
 
 .hp-clients .slick-next {
-    right: -25px;
+    right: 188px;
+}
+
+.hp-clients .slick-next::before,
+.hp-clients .slick-prev::before {
+    font-weight: 600;
 }
 
 .hp-clients .slick-prev, .hp-clients .slick-next {
-    font-size: 24px;
+    font-size: 33px;
     font-weight: bolder;
-    color: #000000;
+    color: #cdbe9d;
     position: absolute;
     top: 50%;
     display: block;
@@ -167,7 +246,10 @@
     border: none;
     outline: none;
     background: transparent;
+    z-index: 1;
 }
+
+
 
 /*
 Theme Name: happyagentteam.com
@@ -1060,24 +1142,24 @@ button {
     text-align: right;
 }
 
-.arrow-btn {
+.hp-properties .arrow-btn {
     display: flex;
     cursor: pointer;
     position: relative;
 }
 
-.arrow-holder .prev:hover, .arrow-holder .next:hover {
+.hp-properties .arrow-holder .prev:hover, .hp-properties .arrow-holder .next:hover {
     opacity: 0.5;
 }
 
-.arrow-holder .prev, .arrow-holder .next {
+.hp-properties .arrow-holder .prev, .hp-properties .arrow-holder .next {
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
     -o-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
 
-.arrow-holder {
+.hp-properties .arrow-holder {
     position: absolute;
     display: flex;
     font-size: 13px;
@@ -1086,33 +1168,33 @@ button {
     bottom: -11px;
 }
 
-.arrow-left {
+.hp-properties .arrow-left {
     left: 25.4%;
     bottom: -11px;
 }
 
-.arrow-holder button {
+.hp-properties .arrow-holder button {
     text-transform: uppercase;
 }
 
-.arrow-btn.prev {
+.hp-properties .arrow-btn.prev {
     padding-right: 70px;
 }
 
-.ai-font-arrow-b-p::before, .ai-font-arrow-b-n::before {
+.hp-properties .ai-font-arrow-b-p::before, .hp-properties .ai-font-arrow-b-n::before {
     content: "\b0002";
     position: absolute;
     font-size: 33px;
     color: #cdbe9d;
 }
 
-.ai-font-arrow-b-p::before {
+.hp-properties .ai-font-arrow-b-p::before {
     transform: rotate(180deg);
     left: -26px;
     top: -8px;
 }
 
-.ai-font-arrow-b-n::before {
+.hp-properties .ai-font-arrow-b-n::before {
     right: -26px;
     top: -8px;
 }
@@ -1311,6 +1393,7 @@ button {
     filter: grayscale(100%);
     position: relative;
     padding: 125px 0 130px;
+    margin-bottom: 78px;
     font-size: 0;
 }
 
@@ -1596,103 +1679,11 @@ hr {
     width: 100%;
 }
 
-/* .footer {
-    font-size: 0;
-    position: relative;
+/* Sidebar Fixed */
+
+.comp-social-sidebar {
+    
 }
-
-.footer::before {
-    content: '';
-    position: absolute;
-    bottom: 152px;
-    border: 1px solid gray;
-    width: 100%;
-}
-.upper-footer {
-    display: flex;
-    justify-content: center;
-}
-
-
-.pad-right{
-    padding-right: 58px;
-}
-
-.middle-footer{ 
-    text-align: center;
-    padding : 60px 0 77px 0;
-}
-
-.middle-footer > * + *  {
-    padding-top: 15px ;
-}
-
-.footer-email span,
-.footer-phone span
- {
-    color: #cdbe9d;
-    font-size: 15px;
-}
-
-.footer-email span
- {
-   padding-right: 15px;
-}
-
-.footer-phone span{
-    padding-right: 6px;
-}
-
-.footer-email a,
-.footer-phone a
- {
-  font-size: 13px;
-  font-weight:  400;
-  font-family: 'Roboto', sans-serif;
-  color: #656565;
-}
-
-.footer-smi {
-    color: #fff;
-    font-size: 13px;
-}
-
-.footer-smi > * + * {
-    padding-left: 15px;
-}
-
-.footer-smi a {
-    display: inline-block;
-
-}
-
-.footer-smi span  {
-    width: 34px;
-    height: 34px;
-    background: #cdbe9d;
-    border-radius: 50%;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    font-size:  15px;
-
-}
-
-.lower-footer p{
-    font-size: 13px;
-    color: #6f6f6f;
-    text-align: center;
-    padding: 40px 0 17px 0;
-}
-
-.lower-footer .mls{
-    font-size: 26px;
-    color: #cdbe9d;
-    text-align: center;
-}  */
-
-
-/* Ipe */
 
 /*******************************************************
  *
