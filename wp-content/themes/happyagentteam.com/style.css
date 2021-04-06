@@ -753,9 +753,11 @@ img.img-responsive.map-trans {
     pointer-events: none;
 }
 
-.map-alameda .map-det-font::after{
+.map-alameda .map-det-font::after
+.map-costa .map-det-font::after{
     display: none;
 }
+
 
 .frame1-det-1.map-det-font {
     top: 695px;
@@ -943,6 +945,206 @@ img.img-responsive.map-trans {
     top: 395px;
     left: 698px;
 }
+
+.map-hover-item.map3-hover-1 {
+    top: 603px;
+    left: 942px;
+}
+
+.map-hover-item.map3-hover-2 {
+    top: 575px;
+    left: 1021px;
+}
+
+.map-hover-item.map3-hover-3 {
+    top: 680px;
+    left: 1030px;
+}
+
+.map-hover-item.map3-hover-4 {
+    top: 564px;
+    left: 1107px;
+}
+
+.map-hover-item.map3-hover-5 {
+    top: 436px;
+    left: 1155px;
+}
+
+.map-hover-item.map3-hover-6 {
+    top: 729px;
+    left: 1202px;
+}
+
+.map-hover-item.map3-hover-7 {
+    top: 452px;
+    left: 673px;
+}
+
+.map-hover-item.map3-hover-8 {
+    top: 505px;
+    left: 1060px;
+}
+
+.map-hover-item.map3-hover-9 {
+    top: 816px;
+    left: 1232px;
+}
+
+.map-hover-item.map3-hover-10 {
+    top: 410px;
+    left: 1031px;
+}
+
+.map-hover-item.map3-hover-11 {
+    top: 410px;
+    left: 853px;
+}
+
+.map-hover-item.map3-hover-12 {
+    top: 450px;
+    left: 824px;
+}
+
+.map-hover-item.map3-hover-13 {
+    top: 405px;
+    left: 673px;
+}
+
+.map-hover-item.map3-hover-14 {
+    top: 405px;
+    left: 1253px;
+}
+
+.map-hover-item.map3-hover-15 {
+    top: 423px;
+    left: 1414px;
+}
+
+.map-hover-item.map3-hover-16 {
+    top: 639px;
+    left: 1151px;
+}
+
+.map-hover-item.map3-hover-17 {
+    top: 588px;
+    left: 1501px;
+}
+
+.map-hover-item.map3-hover-18 {
+    top: 551px;
+    left: 1309px;
+}
+
+.map-hover-item.map3-hover-19 {
+    top: 669px;
+    left: 1122px;
+}
+
+.map-costa .map-det-font::after{
+    display: none;
+}
+
+.map-costa .map-det-font{
+    font-size: 14px;
+}
+
+.frame3-det-1.map-det-font {
+    top: 648px;
+    left: 958px;
+}
+
+.frame3-det-2.map-det-font {
+    top: 636px;
+    left: 1033px;
+
+}
+.frame3-det-3.map-det-font {
+    top: 721px;
+    left: 1048px;
+}
+
+
+.frame3-det-4.map-det-font {
+    top: 600px;
+    left: 1161px;
+}
+
+.frame3-det-5.map-det-font {
+    top: 504px;
+    left: 1197px;
+}
+
+.frame3-det-6.map-det-font {
+    top: 774px;
+    left: 1237px;
+}
+
+.frame3-det-7.map-det-font {
+    top: 567px;
+    left: 728px;
+}
+
+.frame3-det-8.map-det-font {
+    top: 541px;
+    left: 1063px;
+}
+
+.frame3-det-9.map-det-font {
+    top: 860px;
+    left: 1241px;
+}
+
+.frame3-det-10.map-det-font {
+    top: 471px;
+    left: 1038px;
+}
+
+.frame3-det-11.map-det-font {
+    top: 442px;
+    left: 863px;
+}
+
+.frame3-det-12.map-det-font {
+    top: 456px;
+    left: 810px;
+}
+
+.frame3-det-13.map-det-font {
+    top: 596px;
+    left: 806px;
+}
+
+.frame3-det-14.map-det-font {
+    top: 434px;
+    left: 1342px;
+}
+
+.frame3-det-15.map-det-font {
+    top: 476px;
+    left: 1443px;
+}
+
+.frame3-det-16.map-det-font {
+    top: 684px;
+    left: 1230px;
+}
+
+.frame3-det-17.map-det-font {
+    top: 612px;
+    left: 1490px;
+}
+
+.frame3-det-18.map-det-font {
+    top: 565px;
+    left: 1319px;
+}
+
+.frame3-det-19.map-det-font {
+    top: 693px;
+    left: 1113px;
+}
+
 /* PETER */
 
 /*******************************************************
