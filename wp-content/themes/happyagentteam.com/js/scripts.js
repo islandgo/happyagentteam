@@ -134,7 +134,7 @@
 			  });
 
 			  jQuery(".fire-main-map.costa").click(function(){
-				jQuery('.map-main-frame').detach().appendTo('.ip-container #content').css({'display' : 'none'});
+				jQuery('.map-main-frame, .map-alameda').detach().appendTo('.ip-container #content').css({'display' : 'none'});
 				jQuery('.map-costa').css({'display' : 'block'});
 			  });
 
