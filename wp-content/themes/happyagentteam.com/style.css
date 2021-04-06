@@ -247,6 +247,14 @@
     outline: none;
     background: transparent;
     z-index: 1;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.hp-clients .slick-prev:hover, .hp-clients .slick-next:hover {
+    opacity: 0.6;
 }
 
 
@@ -1385,6 +1393,56 @@ button {
     transform: translateY(-50%);
 }
 
+.hp-team span {
+    color: #535353;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.hp-team span:hover {
+    opacity: 0.6;
+}
+
+.hp-team .slick-prev,
+.hp-team .slick-next {
+    cursor: pointer;
+    position: absolute;
+    top: 56%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.hp-team .slick-prev {
+    left: 120px;
+}
+
+.hp-team .slick-next {
+    right: 151px;
+    padding-right: 10px;
+}
+
+.hp-team .slick-prev::before,
+.hp-team .slick-next::before {
+    font-size: 33px;
+    color: #cdbe9d;
+    position: relative;
+}
+
+.hp-team .slick-prev::before {
+    top: 10px;
+    right: 15px;
+}
+
+.hp-team .slick-next::before {
+    top: 10px;
+    right: -72px;
+}
+
 /* Tagline */
 .hp-tagline {
     background: url(images/tagline-bg.jpg) no-repeat;
@@ -1682,7 +1740,55 @@ hr {
 /* Sidebar Fixed */
 
 .comp-social-sidebar {
-    
+    font-size: 20px;
+    position: fixed;
+    color: #fff;
+    right: 30px;
+    top: 58%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.comp-social-sidebar::before {
+    position: absolute;
+    content: '';
+    height: 156px;
+    width: 1px;
+    background: #b2b2b2;
+    top: -175px;
+    right: 21px;
+}
+
+.comp-social-sidebar::after {
+    position: absolute;
+    content: '';
+    height: 156px;
+    width: 1px;
+    background: #b2b2b2;
+    bottom: -175px;
+    right: 21px;
+}
+
+.comp-social-sidebar > * + * {
+    padding: 15px 0 0 0;
+}
+
+.comp-social-sidebar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: #cdbe9d;
+    border-radius: 50%;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+.comp-social-sidebar a:hover {
+    opacity: 0.6;
 }
 
 /*******************************************************

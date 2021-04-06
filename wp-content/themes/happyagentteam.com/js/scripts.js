@@ -82,7 +82,6 @@
 				});
 
 				$(".fp-slick-"+item+" + div .next").on("click", function () {
-					console.log("asd");
 					jQuery(".fp-slick-"+item+"").slick('slickNext');
 					
 				});
@@ -159,8 +158,8 @@
 				autoplaySpeed: 5000,
 				slidesToScroll: 1,
 				arrows: true,
-				prevArrow: '.hp-properties .arrow-btn.prev',
-				nextArrow: '.hp-properties .arrow-btn.next',
+				prevArrow: '.hp-team .ai-font-arrow-b-p.slick-prev',
+				nextArrow: '.hp-team .ai-font-arrow-b-n.slick-next',
 				responsive: [
 				{
 					breakpoint: 992,

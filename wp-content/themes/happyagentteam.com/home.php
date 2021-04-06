@@ -57,49 +57,47 @@
 
 	<!-- Hp Properties -->
 	<section class="hp-properties">
-
-		
 		<div class="fp-slick-wrapper">
 			<div class="container">
 				<div class="fp-slick-1">
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Featured</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
@@ -127,10 +125,10 @@
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
-								<a href="#"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
+								<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
 						</div>
 					</div>
 					<div>
@@ -141,10 +139,10 @@
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
-							<a href="#"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
 						</div>
 					</div>
 					<div>
@@ -155,10 +153,10 @@
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
-							<a href="#"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
 						</div>
 					</div>
 				</div>
@@ -178,42 +176,42 @@
 				<div class="fp-slick-3">
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
 					</div>
 					<div>
 						<div class="fp-content">
-							<a href="#"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
+							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
 							<div class="fp-description">
 								<h2 class="primary-text">Pending</h2>
 								<h3 class="secondary-text">Properties</h3>
 								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
 								<h3 class="fp-secondary-style">$4,555,000</h3>
 								<div class="global-btn">
-									<a href="#">View more details</a>
+									<a href="#" aria-label="btn">View more details</a>
 								</div>
 							</div>
 						</div>
@@ -454,7 +452,7 @@
 				<p class="about-primary-text">It is with great pleasure that agent welcomes you to city, and to her website.</p>
 				<p class="about-secondary-text">The search is over. Her website is designed to be your one-stop for real estate in sample city. This is the moment that you should enjoy the most; looking at the available properties in simple city; imagining yourself living in the home that you have always dreamed about. You don't want just another database that gives you rehashed property descriptions. You want to walk around the neighborhood from the comfort of your own homne, You want to get a clear picture about life in simple city.</p>
 				<div class="global-btn">
-					<a href="" class="primary-btn">Read more</a>
+					<a href="#" class="primary-btn" aria-label="btn">Read more</a>
 				</div>
 			</div>
 		</div>
@@ -465,7 +463,7 @@
 		<div class="container">
 			<h2 class="primary-text">Meet</h2>
 			<h3 class="secondary-text">The Team</h3>
-	
+			<span class="ai-font-arrow-b-p slick-prev">previous</span>
 			<div class="team-slick">
 				<div class="team-slick-item">
 					<div class="comp-team-container">
@@ -496,8 +494,8 @@
 								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
 							</p>
 						</div>
-						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
+						<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
 						<div class="content content-secondary">
 							<h2 class="team-primary-text">John Doe</h2>
 							<h3 class="team-secondary-text">Realtor</h3>
@@ -516,8 +514,8 @@
 								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
 							</p>
 						</div>
-						<img alt="author" class="img-responsive normal" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-						<img alt="author" class="img-responsive reverse" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
+						<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
+						<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
 						<div class="content content-secondary">
 							<h2 class="team-primary-text">John Doe</h2>
 							<h3 class="team-secondary-text">Realtor</h3>
@@ -527,56 +525,13 @@
 						</div>
 					</div>
 				</div>
-				<!-- <div class="team-slick-item">
-					<div class="comp-team-container ">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-					</div>
-					<div class="comp-team-container reverse">
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="team-slick-item">
-					<div class="comp-team-container normal">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg">
-					</div>
-					<div class="comp-team-container reverse">
-						<img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg">
-						<div class="content">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-					</div>
-				</div> -->
 			</div>
+			<span class="ai-font-arrow-b-n slick-next">next</span>
 		</div>
 
 	</section>
 
-	<!-- Hp Vision -->
+	<!-- Hp Tagline -->
 	<section class="hp-tagline">
 		<div class="container">
 			<p>
@@ -585,11 +540,11 @@
 		</div>
 	</section>
 
-	<!-- Hp Vision -->
+	<!-- Hp Clients -->
 	<section class="hp-clients">
 
 		<div class="global-btn">
-			<a href="" class="primary-btn">View all</a>
+			<a href="#" class="primary-btn" aria-label="btn">View all</a>
 		</div>
 		<div class="container">
 			<div class="client-slick">
@@ -637,11 +592,11 @@
 		<h2 class="primary-text">We're Social!</h2>
 		<h3 class="secondary-text">Follow us</h3>
 		<div class="comp-social-container">
-			<div class="social-item item-1"><a href="" class="ai-font-facebook"></a></div>
-			<div class="social-item item-2"><a href="" class="ai-font-instagram"></a></div>
-			<div class="social-item item-3"><a href="" class="ai-font-linkedin"></a></div>
-			<div class="social-item item-4"><a href="" class="ai-font-youtube"></a></div>
-			<div class="social-item item-5"><a href="" class="ai-font-yelp"></a></div>
+			<div class="social-item item-1"><a href="#" aria-label="btn" class="ai-font-facebook"></a></div>
+			<div class="social-item item-2"><a href="#" aria-label="btn" class="ai-font-instagram"></a></div>
+			<div class="social-item item-3"><a href="#" aria-label="btn" class="ai-font-linkedin"></a></div>
+			<div class="social-item item-4"><a href="#" aria-label="btn" class="ai-font-youtube"></a></div>
+			<div class="social-item item-5"><a href="#" aria-label="btn" class="ai-font-yelp"></a></div>
 		</div>
 	</section>
 
@@ -676,11 +631,11 @@
 	</section>
 
 	<ul class="comp-social-sidebar">
-		<li class="social-item"><a href="#" class="ai-font-facebook"></a></li>
-		<li class="social-item"><a href="#" class="ai-font-instagram"></a></li>
-		<li class="social-item"><a href="#" class="ai-font-linkedin"></a></li>
-		<li class="social-item"><a href="#" class="ai-font-youtube"></a></li>
-		<li class="social-item"><a href="#" class="ai-font-yelp"></a></li>
+		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-facebook"></a></li>
+		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-instagram"></a></li>
+		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-linkedin"></a></li>
+		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-youtube"></a></li>
+		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-yelp"></a></li>
 	</ul>
 
 
