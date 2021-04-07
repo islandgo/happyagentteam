@@ -1141,11 +1141,17 @@ button {
 
 /* Featured start */
 
+/* FIXME: 
+    Background Di parehas ang taas
+    Button Napapailalim sa margin hindi Ma Click
+*/
+
 .hp-properties {
     position: relative;
     padding: 99px 0 143px 0;
     background: url(images/fp-bg.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100%;
 }
 
@@ -1161,8 +1167,9 @@ button {
     pointer-events: none;
 }
 
-.hp-properties>*+* {
-    padding-top: 116px;
+.hp-properties .fp-slick-2,
+.hp-properties .fp-slick-3 {
+    margin-top: 116px;
 }
 
 .hp-properties img {
@@ -1226,7 +1233,7 @@ button {
     position: relative;
 }
 
-.fp-slick-wrapper>.container {
+.fp-slick-wrapper > .container {
     position: relative;
     z-index: 2;
 }
@@ -1884,7 +1891,7 @@ hr {
     right: 21px;
 }
 
-.comp-social-sidebar > * + * {
+.comp-social-sidebar  li + li {
     padding: 15px 0 0 0;
 }
 

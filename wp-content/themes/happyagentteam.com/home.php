@@ -3,41 +3,7 @@
 	<!-- your home html -->
 	<!-- intro popup -->
     <div class="intro-popup">
-        <a href="#introPopupHolder" class="aios-content-popup introPopupTrigger">Intro Popup Form</a>
-        <div class="aiosp-hide" id="introPopupHolder">
-            <div class="introPopupHolder-content">
-                <div class="intro-popup-title">
-                    <h2 class="primary-text">Join our</h2>
-					<h3 class="secondary-text">Network</h3>
-					<p>Keep up to date with the latest market trends and opportunities</p>
-                </div>
-                <div class="intro-popup-form">
-                    <div class="form-md pad-right">
-						<label for="ip-fname">Name</label>
-						<input type="text" id="name" placeholder="Name">
-					</div>
-			
-					<div class="form-md pad-left">
-						<label for="ip-email">Email</label>
-						<input type="text" id="ip-email" placeholder="Email">
-					</div>
-			
-					<div class="form-lg">
-						<label for="ip-phone">Phone</label>
-						<input type="text" id="ip-phone" placeholder="Phone">
-					</div>
-
-					<div class="form-lg">
-						<label for="ip-message">Message</label>
-						<textarea  id="ip-message" placeholder="Message"></textarea>
-					</div>
-
-					<div class="global-btn">
-						<input type="submit" value="Submit" class="primary-btn">
-					</div>
-                </div>
-            </div>
-        </div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Popup") ) : ?><?php endif ?>
     </div>
 	<!-- End popup -->
 	<!-- Banner -->
@@ -47,226 +13,12 @@
 
 	<!-- Hp Search -->
 	<section class="hp-quick-search container">
-		<h2>Quick Search</h2>
-		<form class="comp-search-container">
-			<div class="qs-xl">
-				<select aria-label="zip code">
-					<option value="volvo">City or Zip Code</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
-			</div>
-			<div class="qs-lg">
-				<select aria-label="property type">
-					<option value="volvo">Property Type</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
-			</div>
-			<div class="qs-sm">
-				<select aria-label="beds">
-					<option value="volvo">Beds</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
-			</div>
-			<div class="qs-sm">
-				<select aria-label="baths">
-					<option value="volvo">Baths</option>
-					<option value="saab">Saab</option>
-					<option value="mercedes">Mercedes</option>
-					<option value="audi">Audi</option>
-				</select>
-			</div>
-			<div class="qs-md">
-				<input type="text" aria-label="min price" placeholder="Min. Price">
-			</div>
-			<div class="qs-md">
-				<input type="text" aria-label="max price" placeholder="Max. Price">
-			</div>
-			<div class="qs-btn">
-				<a href="#" class="serch-btn-primary" aria-label="qs">search</a>
-				<input class="serch-btn-secondary" type="submit" value="advance" />
-			</div>
-		</form>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Quick Search") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp Properties -->
 	<section class="hp-properties">
-		<div class="fp-slick-wrapper">
-			<div class="container">
-				<div class="fp-slick-1">
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Featured</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Featured</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="dining room" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-1.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Featured</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="arrow-holder">
-					<div class="arrow-btn prev">
-						<button class="ai-font-arrow-b-p" >Previous</button>
-					</div>
-					<div class="arrow-btn next">
-						<button class="ai-font-arrow-b-n" >Next</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="fp-slick-wrapper fp-line-left">
-			<div class="container">
-				<div class="fp-slick-2">
-					<div>
-						<div class="fp-content">
-							<div class="fp-description">
-								<h2 class="primary-text">Coming</h2>
-								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-								<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<div class="fp-description">
-								<h2 class="primary-text">Coming</h2>
-								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-							<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<div class="fp-description">
-								<h2 class="primary-text">Coming</h2>
-								<h3 class="secondary-text">Soon</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-							<a href="#" aria-label="fp"><img alt="A sofa and pictures on the wall" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-2.jpg"></a>
-						</div>
-					</div>
-				</div>
-				<div class="arrow-holder arrow-left">
-					<div class="arrow-btn prev">
-						<button class="ai-font-arrow-b-p" >Previous</button>
-					</div>
-					<div class="arrow-btn next">
-						<button class="ai-font-arrow-b-n" >Next</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="fp-slick-wrapper">
-			<div class="container">
-				<div class="fp-slick-3">
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Pending</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Pending</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div>
-						<div class="fp-content">
-							<a href="#" aria-label="fp"><img alt="A Book and living room armchair" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/fp-img-3.jpg"></a>
-							<div class="fp-description">
-								<h2 class="primary-text">Pending</h2>
-								<h3 class="secondary-text">Properties</h3>
-								<p class="fp-primary-style">1700 East Walnut Avenue Suite&nbsp;400 El Segundo CA 90245</p>
-								<h3 class="fp-secondary-style">$4,555,000</h3>
-								<div class="global-btn">
-									<a href="#" aria-label="btn">View more details</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="arrow-holder">
-					<div class="arrow-btn prev">
-						<button class="ai-font-arrow-b-p" >Previous</button>
-					</div>
-					<div class="arrow-btn next">
-						<button class="ai-font-arrow-b-n" >Next</button>
-					</div>
-				</div>
-			</div>
-		</div>
-
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Properties") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp Communities -->
@@ -481,200 +233,37 @@
 
 	<!-- Hp About -->
 	<section class="hp-about-us">
-		<div class="container comp-about-us-container">
-			<div class="about-img">
-				<img alt="author" class="img-responsive"  src="<?php echo get_stylesheet_directory_uri() ?>/images/about-img.png">
-			</div>
-			<div class="content">
-				<h2 class="primary-text">About</h2>
-				<h3 class="secondary-text">Patrice Sandstrom</h3>
-				<p class="about-primary-text">It is with great pleasure that agent welcomes you to city, and to her website.</p>
-				<p class="about-secondary-text">The search is over. Her website is designed to be your one-stop for real estate in sample city. This is the moment that you should enjoy the most; looking at the available properties in simple city; imagining yourself living in the home that you have always dreamed about. You don't want just another database that gives you rehashed property descriptions. You want to walk around the neighborhood from the comfort of your own homne, You want to get a clear picture about life in simple city.</p>
-				<div class="global-btn">
-					<a href="#" class="primary-btn" aria-label="btn">Read more</a>
-				</div>
-			</div>
-		</div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp About") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp Team -->
 	<section class="hp-team">
-		<div class="container">
-			<h2 class="primary-text">Meet</h2>
-			<h3 class="secondary-text">The Team</h3>
-			<span class="ai-font-arrow-b-p slick-prev">previous</span>
-			<div class="team-slick">
-				<div class="team-slick-item">
-					<div class="comp-team-container">
-							<div class="content content-primary">
-								<h2 class="team-primary-text">John Doe</h2>
-								<h3 class="team-secondary-text">Realtor</h3>
-								<p>
-									Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-								</p>
-							</div>
-							<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
-							<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
-							<div class="content content-secondary">
-								<h2 class="team-primary-text">John Doe</h2>
-								<h3 class="team-secondary-text">Realtor</h3>
-								<p>
-									Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-								</p>
-							</div>
-					</div>
-				</div>
-				<div class="team-slick-item">
-					<div class="comp-team-container">
-						<div class="content content-primary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
-						<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
-						<div class="content content-secondary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-					</div>
-				</div>
-				<div class="team-slick-item">
-					<div class="comp-team-container">
-						<div class="content content-primary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-						<div class="normal"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-1.jpg"></div>
-						<div class="reverse"><img alt="author" class="img-responsive" src="<?php echo get_stylesheet_directory_uri() ?>/images/team-img-2.jpg"></div>
-						<div class="content content-secondary">
-							<h2 class="team-primary-text">John Doe</h2>
-							<h3 class="team-secondary-text">Realtor</h3>
-							<p>
-								Since Year, ABC Brokerage has been representing buyers and sellers all throughout the Sample City area.
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<span class="ai-font-arrow-b-n slick-next">next</span>
-		</div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Team") ) : ?><?php endif ?>
 
 	</section>
 
 	<!-- Hp Tagline -->
 	<section class="hp-tagline">
-		<div class="container">
-			<p>
-				At Sandstrom Group we believe successful results & a quality client experience are our responsibility. Our goal is to provide a #happyexperience for our #happysellers & #happybuyers. Give us the opportunity to exceed your expectations!
-			</p>
-		</div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Tagline") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp Clients -->
 	<section class="hp-clients">
-
-		<div class="global-btn">
-			<a href="#" class="primary-btn" aria-label="btn">View all</a>
-		</div>
-		<div class="container">
-			<div class="client-slick">
-					<div>
-						<div class="client-item">
-								<h2 class="primary-text">Our happy clients</h2>
-								<h3>Jane Doe</h3>
-								<h4>Realitor</h4>
-								<p>
-									We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
-								</p>
-						</div>
-					</div>
-			
-				<div>
-					<div class="client-item">
-						<h2 class="primary-text">Our happy clients</h2>
-						<h3>Jane Doe</h3>
-						<h4>Realitor</h4>
-						<p>
-							We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
-						</p>
-					</div>
-				</div>
-	
-				<div>
-					<div class="client-item">
-						<h2 class="primary-text">Our happy clients</h2>
-						<h3>Jane Doe</h3>
-						<h4>Realitor</h4>
-						<p>
-							We can't thank Agent enough for helping us find our dream home in Sample City. It's exactly what we dreamed it would be - and we didn't go over our budget! Agent's local market knowledge, expertise, and amazing dedication made the whole buying process truly enjoyable. Thank you so much, Agent!
-						</p>
-					</div>
-				</div>
-	
-			
-			</div>
-
-		</div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Clients") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp Social -->
 	<section class="hp-social">
-		<h2 class="primary-text">We're Social!</h2>
-		<h3 class="secondary-text">Follow us</h3>
-		<div class="comp-social-container">
-			<div class="social-item item-1"><a href="#" aria-label="btn" class="ai-font-facebook"></a></div>
-			<div class="social-item item-2"><a href="#" aria-label="btn" class="ai-font-instagram"></a></div>
-			<div class="social-item item-3"><a href="#" aria-label="btn" class="ai-font-linkedin"></a></div>
-			<div class="social-item item-4"><a href="#" aria-label="btn" class="ai-font-youtube"></a></div>
-			<div class="social-item item-5"><a href="#" aria-label="btn" class="ai-font-yelp"></a></div>
-		</div>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Social") ) : ?><?php endif ?>
 	</section>
 
 	<!-- Hp git -->
 	<section class="hp-git">
-		<div class="container">
-			<h2 class="primary-text">Get in Touch</h2>
-			<div class="secondary-text-holder">
-				<p class="secondary-text">Keep Up To Date With The Latest Market Trends And Opportunities</p>
-			</div>
-			<div class="git-form">
-				<div class="form-md pad-right">
-					<label for="git-fname">Name</label>
-					<input type="text" id="name" placeholder="Name">
-				</div>
-			
-				<div class="form-md pad-right">
-					<label for="git-email">Email</label>
-					<input type="text" id="git-email" placeholder="Email">
-				</div>
-			
-				<div class="form-md">
-					<label for="git-message">Message</label>
-					<textarea  id="git-message" placeholder="Message"></textarea>
-				</div>
-				<div class="global-btn">
-					<input type="submit" value="Send" class="primary-btn">
-				</div>
-			</div>
-		</div>
-
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Get In Touch") ) : ?><?php endif ?>
 	</section>
 
 	<ul class="comp-social-sidebar">
-		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-facebook"></a></li>
-		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-instagram"></a></li>
-		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-linkedin"></a></li>
-		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-youtube"></a></li>
-		<li class="social-item"><a href="#" aria-label="btn" class="ai-font-yelp"></a></li>
+		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Sidebar") ) : ?><?php endif ?>
 	</ul>
 
 
