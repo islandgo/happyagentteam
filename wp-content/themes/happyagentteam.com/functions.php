@@ -21,6 +21,115 @@ function register_ai_child_starter_theme_sidebars() {
 		'before_title' => '',
 		'after_title' => ''
 	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Popup',
+		'id'=>'hp-popup',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Quick Search',
+		'id'=>'hp-quick-search',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Properties',
+		'id'=>'hp-properties',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp About',
+		'id'=>'hp-about',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Team',
+		'id'=>'hp-team',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Tagline',
+		'id'=>'hp-tagline',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Clients',
+		'id'=>'hp-clients',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Social',
+		'id'=>'hp-social',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Get In Touch',
+		'id'=>'hp-get-in-touch',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Sidebar',
+		'id'=>'hp-sidebar',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Footer Upper',
+		'id'=>'footer-upper',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Footer Middle',
+		'id'=>'footer-middle',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+	 
 	
 }
 
