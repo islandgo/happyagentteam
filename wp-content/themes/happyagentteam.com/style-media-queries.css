@@ -10,20 +10,214 @@
 
 @media only screen and (max-width: 1450px) {
 	/* 1366px */
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
+
+
 }
 
 @media only screen and (max-width: 1365px) {
 	/* 1200 */	
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
 } 
 
 @media only screen and (max-width: 1199px) {
 	/* 992 */
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
 } 
 
 
 
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
 	
 	/* The following are used on inner pages. Please edit carefully. */
 
@@ -45,13 +239,112 @@
 
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
 @media only screen and (max-width: 767px) {
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
+
     .ip-banner .container{
         width: 100%;
     }
+
+
 }
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
 @media only screen and (max-width: 480px) {
+
+	/* Header */
+
+	/* Header End  */
+
+	/* Quick */
+
+	/* Quick End  */
+
+	/* Featured Properties */
+
+	/* Featured Properties End  */
+
+	/* Featured Communities */
+
+	/* Featured Communities End  */
+
+	/* About */
+
+	/* About End  */
+
+	/* Team */
+
+	/* Team End  */
+
+	/* Tagline */
+
+	/* Tagline End  */
+
+	/* Clients */
+
+	/* Clients End  */
+
+	/* Social */
+
+	/* Social End  */
+
+	/* Get in touch */
+
+	/* Get in touch End  */
+	
+	/* Footer */
+
+	/* Footer End  */
+
+	/* Intro Modal */
+
+	/* Intro Modal End*/
 
 }
  
