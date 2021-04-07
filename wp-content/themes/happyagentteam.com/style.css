@@ -28,6 +28,10 @@ TABLE OF CONTENTS
  *
  *******************************************************/
 
+ /* *, *::before, *::after {
+     outline: 2px solid dodgerblue;
+ } */
+
 :root {
     /** Font default */
     --font-family-default: 'Roboto', sans-serif;
@@ -148,6 +152,10 @@ TABLE OF CONTENTS
 .fp-slick-2:not(.slick-initialized) > div:not(:first-child),
 .fp-slick-3:not(.slick-initialized) > div:not(:first-child){
     display: none;
+}
+
+#main-wrapper {
+    overflow: hidden;
 }
 
 /* Sub Menu */
