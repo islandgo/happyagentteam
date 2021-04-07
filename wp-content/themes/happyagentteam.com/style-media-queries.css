@@ -11,54 +11,47 @@
 @media only screen and (max-width: 1450px) {
 	/* 1366px */
 
-	/* Header */
-
-	/* Header End  */
-
-	/* Quick */
-
-	/* Quick End  */
-
-	/* Featured Properties */
-
-	/* Featured Properties End  */
-
-	/* Featured Communities */
-
-	/* Featured Communities End  */
-
-	/* About */
-
-	/* About End  */
-
 	/* Team */
+
+	.slick-slide > div {
+		max-width: 1050px;
+		margin: 0 auto;
+	}
+
+	.hp-team .content p {
+		padding: 0 83px 0 72px;
+	}
+
+	.hp-team .slick-prev::before, .hp-team .slick-next::before {
+		font-size: 27px;
+	}
+
+	.hp-team .slick-prev {
+		left: 48px;
+	}
+
+	.hp-team .slick-next {
+		right: 102px;
+		padding-right: 0;
+	}
+
+	.hp-team .slick-next::before {
+		right: -62px;
+	}
+
+	.hp-team .slick-prev::before {
+		top: 8px;
+    	right: 6px;
+	}
 
 	/* Team End  */
 
-	/* Tagline */
 
-	/* Tagline End  */
-
-	/* Clients */
-
-	/* Clients End  */
-
-	/* Social */
-
-	/* Social End  */
-
-	/* Get in touch */
-
-	/* Get in touch End  */
-	
-	/* Footer */
-
-	/* Footer End  */
-
-	/* Intro Modal */
-
-	/* Intro Modal End*/
-
+	/* Fixed Sidebar */
+	.comp-social-sidebar a {
+		width: 36px;
+		height: 36px;
+	}
 
 }
 
