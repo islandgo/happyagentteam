@@ -112,6 +112,18 @@
     background: #09b0ac;
 }
 
+.hp-clients .client-item::after {
+    content: '';
+    position: absolute;
+    bottom: 50%;
+    left: 113px;
+    height: 28px;
+    width: 36px;
+    transform: translateY(114%);
+    background: url(images/quotes.png) no-repeat;
+    pointer-events: none;
+}
+
 .hp-clients h3{
     padding: 80px 0 6px 0;
     font-family: 'Roboto', sans-serif;
@@ -973,6 +985,109 @@ body {
     -moz-osx-font-smoothing: grayscale; */
 }
 
+/* intro form */
+
+.intro-popup {
+    font-size: 0;
+}
+
+.aiosp-content.aios-popup-body.intro-popup-body {
+    min-height: auto;
+    width: 100%;
+    max-width: 703px;
+    font-size: 0;
+    padding: 95px 123px 50px;
+}
+
+.aios-popup-body .aiosp-close {
+    color: #000;
+    font-size: 51px;
+    position: absolute;
+    right: 18px;
+    top: 17px;
+}
+
+.intro-popup-title {
+    text-align: center;
+}
+
+.intro-popup-title .secondary-text {
+    padding: 7px 0 34px 0;
+}
+
+.intro-popup-title p {
+    color: #656565;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;  
+    font-weight: 400; 
+    line-height: 24px;
+    margin-top: 0;
+    margin: 0 auto;
+    max-width: 300px;
+    padding-bottom: 28px;
+    text-transform: capitalize;
+}
+
+.intro-popup-form > * + * {
+    padding-top: 35px;
+}
+
+.intro-popup-form .form-md {
+    width: 50%;
+    display: inline-block;
+}
+
+.intro-popup-form .form-lg {
+    width: 100%;
+    transform: translateY(-10px);
+}
+
+
+.intro-popup-form .pad-right {
+    padding-right: 7.5px;
+}
+
+.intro-popup-form .pad-left {
+    padding-left: 7.5px;
+}
+
+.intro-popup-form input,
+.intro-popup-form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #d9d9d9;
+    color: #a0a0a0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-left: 14px;
+    letter-spacing: 0;
+    overflow: hidden;
+    resize: none;
+    text-transform: none;
+    width: 100%;
+}
+
+.intro-popup-form input {
+    height: 36px;
+}
+
+.intro-popup-form textarea {
+    height: 75px;
+}
+
+.intro-popup-form .global-btn {
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-29%, -10px);
+    bottom: 0;
+}
+
+
+
+/* End */
+
 button {
     outline: 0;
     border: 0;
@@ -1594,12 +1709,12 @@ button {
     position: relative;
 }
 
-.form-md {
+.hp-git .form-md {
     display: inline-block;
     width: 33%;
 }
 
-.form-md input, .form-md textarea {
+.hp-git .form-md input,.hp-git .form-md textarea {
     background: transparent;
     border: none;
     border-bottom: 1px solid #d9d9d9;
