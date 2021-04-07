@@ -195,19 +195,28 @@
 				<div class="map-costa" id="costa">
 					<div class="fc-info-holder">
 						<div class="fc-list-title">
-							<h2>Alameda city</h2>
+							<h2>Contra Costa Country</h2>
 						</div>
 						<div class="fc-list">
-							<a href="#" data-area-id="1" aria-label="communities">Oakland</a>
-							<a href="#" data-area-id="2" aria-label="communities">Berkly</a>
-							<a href="#" data-area-id="3" aria-label="communities">Hayward</a>
-							<a href="#" data-area-id="4" aria-label="communities">Freemont</a>
-							<a href="#" data-area-id="5" aria-label="communities">Dublin</a>
-							<a href="#" data-area-id="6" aria-label="communities">Pleasanton</a>
-							<a href="#" data-area-id="7" aria-label="communities">Alameda</a>
-							<a href="#" data-area-id="8" aria-label="communities">Livemore</a>
-							<a href="#" data-area-id="9" aria-label="communities">Piedmont</a>
-							<a href="#" data-area-id="10" aria-label="communities">Emeryville</a>
+							<a href="#" data-area-id="1" aria-label="communities">Orinda</a>
+							<a href="#" data-area-id="11" aria-label="communities">Hercules</a>
+							<a href="#" data-area-id="2" aria-label="communities">Lafayette</a>
+							<a href="#" data-area-id="12" aria-label="communities">Pinole</a>
+							<a href="#" data-area-id="3" aria-label="communities">Moraga</a>
+							<a href="#" data-area-id="13" aria-label="communities">El Cerrito</a>
+							<a href="#" data-area-id="4" aria-label="communities">Walnut Creek</a>
+							<a href="#" data-area-id="14" aria-label="communities">Pittsburg</a>
+							<a href="#" data-area-id="5" aria-label="communities">Concord</a>
+							<a href="#" data-area-id="15" aria-label="communities">Antioch</a>
+							<a href="#" data-area-id="6" aria-label="communities">Danville</a>
+							<a href="#" data-area-id="16" aria-label="communities">Alamo</a>
+							<a href="#" data-area-id="7" aria-label="communities">Richmond</a>
+							<a href="#" data-area-id="17" aria-label="communities">Brentwood</a>
+							<a href="#" data-area-id="8" aria-label="communities">Pleasant Hill</a>
+							<a href="#" data-area-id="18" aria-label="communities">Clayton</a>
+							<a href="#" data-area-id="9" aria-label="communities">San Ramon</a>
+							<a href="#" data-area-id="19" aria-label="communities">Rossmoor</a>
+							<a href="#" data-area-id="10" aria-label="communities">Martinez</a>
 						</div>
 					</div>
 					<img alt="map-areas" src="<?php echo get_stylesheet_directory_uri()?>/images/map/frame-3.jpg" width="1600" height="1187" border="0" usemap="#Map" />
