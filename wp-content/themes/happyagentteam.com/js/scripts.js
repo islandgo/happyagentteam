@@ -286,6 +286,10 @@
         jQuery('.logo-holder').next().addClass('nav-right');
         jQuery('header.header').css({'opacity' : 1});
 
+		setTimeout(function() {
+            jQuery('a.introPopupTrigger').trigger('click');
+            jQuery('.aios-popup-body').addClass('intro-popup-body');
+        },1000);
 	})
 
 	jQuery(window).on('scroll', function(){

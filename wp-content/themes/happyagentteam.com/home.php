@@ -1,6 +1,45 @@
 <?php get_header(); ?>
 
 	<!-- your home html -->
+	<!-- intro popup -->
+    <div class="intro-popup">
+        <a href="#introPopupHolder" class="aios-content-popup introPopupTrigger">Intro Popup Form</a>
+        <div class="aiosp-hide" id="introPopupHolder">
+            <div class="introPopupHolder-content">
+                <div class="intro-popup-title">
+                    <h2 class="primary-text">Join our</h2>
+					<h3 class="secondary-text">Network</h3>
+					<p>Keep up to date with the latest market trends and opportunities</p>
+                </div>
+                <div class="intro-popup-form">
+                    <div class="form-md pad-right">
+						<label for="ip-fname">Name</label>
+						<input type="text" id="name" placeholder="Name">
+					</div>
+			
+					<div class="form-md pad-left">
+						<label for="ip-email">Email</label>
+						<input type="text" id="ip-email" placeholder="Email">
+					</div>
+			
+					<div class="form-lg">
+						<label for="ip-phone">Phone</label>
+						<input type="text" id="ip-phone" placeholder="Phone">
+					</div>
+
+					<div class="form-lg">
+						<label for="ip-message">Message</label>
+						<textarea  id="ip-message" placeholder="Message"></textarea>
+					</div>
+
+					<div class="global-btn">
+						<input type="submit" value="Submit" class="primary-btn">
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!-- End popup -->
 	<!-- Banner -->
 	<section class="hp-slideshow">
 		<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Hp Slideshow") ) : ?><?php endif ?>		
