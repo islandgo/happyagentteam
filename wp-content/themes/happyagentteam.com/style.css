@@ -1098,35 +1098,26 @@ button {
 
 
 /* Featured start */
-/* TODO:
-    Background Di parehas ang taas
-    Button Napapailalim sa margin hindi Ma Click
-*/
 
 .hp-properties {
-    position: relative;
+    background: rgba(255, 255, 255, 0.9);
     padding: 99px 0 143px 0;
-    background: url(images/fp-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 100%;
+    position: relative;
 }
 
 .hp-properties::before {
+    background-position: center;
+    background-size: cover;
+    background: url(images/fp-bg.jpg) no-repeat;
     content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(255, 255, 255, 0.9);
     filter: grayscale(100%);
+    height: 100%;
+    left: 0;
     pointer-events: none;
-}
-
-.hp-properties .fp-slick-2,
-.hp-properties .fp-slick-3 {
-    margin-top: 116px;
+    position: absolute;
+    top: 0;
+    opacity: 0.12;
+    width: 100%;
 }
 
 .hp-properties img {
@@ -1135,8 +1126,31 @@ button {
 
 .fp-content {
     display: flex;
-    padding: 0 160px 0 38px;
     position: relative;
+}
+
+.fp-slick-1 .fp-content,
+.fp-slick-3 .fp-content,
+.fp-slick-1 .fp-description,
+.fp-slick-3 .fp-description {
+    margin-left: 45px;
+}
+
+.hp-properties .fp-second-slick-wrapper .container,
+.hp-properties .fp-third-slick-wrapper .container {
+    margin-top: 116px;
+}
+
+.fp-slick-2 .fp-content {
+    margin-right: 35px;
+}
+
+.fp-slick-2 .fp-description {
+    margin-right: 56px;
+}
+
+.fp-slick-2  .fp-content {
+    justify-content: flex-end;
 }
 
 .fp-content img {
@@ -1147,20 +1161,8 @@ button {
     transition: all 0.4s ease-in-out;
 }
 
-.fp-description {
-    margin-left: 48px;
-}
-
 .fp-content img:hover {
     filter: grayscale(0);
-}
-
-.fp-slick-2 .fp-description {
-    transform: translateX(12px);
-}
-
-.fp-slick-2 img {
-    margin: 0 0 0 63px;
 }
 
 .fp-description .fp-secondary-style {
@@ -1178,14 +1180,11 @@ button {
     max-width: 290px;
 }
 
+/* How Come */
 .map-costa .fc-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 59px;
-}
-
-.fp-slick-2 .fp-content {
-    padding: 0 38px 0 160px;
 }
 
 .fp-slick-2 .global-btn {
@@ -1221,7 +1220,7 @@ button {
     bottom: 42px;
 }
 
-.fp-line-left::after {
+.fp-second-slick-wrapper::after {
     content: '';
     position: absolute;
     width: 60%;
@@ -1598,6 +1597,7 @@ button {
     padding: 125px 0 130px;
     margin-bottom: 78px;
     font-size: 0;
+
 }
 
 .hp-tagline::before {
@@ -1618,6 +1618,7 @@ button {
     text-align: center;
     padding: 0 52px;
     position: relative;
+    font-family: 'Georgia';
 }
 
 /* Hp Clients */
@@ -2162,7 +2163,7 @@ hr {
     width: 1px;
     background: #b2b2b2;
     top: -175px;
-    right: 21px;
+    right: 17px;
 }
 
 .comp-social-sidebar::after {
@@ -2172,7 +2173,7 @@ hr {
     width: 1px;
     background: #b2b2b2;
     bottom: -175px;
-    right: 21px;
+    right: 17px;
 }
 
 .comp-social-sidebar  li + li {

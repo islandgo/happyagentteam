@@ -11,12 +11,17 @@
 @media only screen and (max-width: 1450px) {
 	/* 1366px */
 
-	/* Team */
+	/* Featured Properties */
 
-	.slick-slide > div {
-		max-width: 1050px;
-		margin: 0 auto;
+	.hp-properties .arrow-holder {
+		right: 22.4%;
 	}
+
+	.hp-properties .arrow-left {
+		left: 21.4%;
+	}
+
+	/* Team */
 
 	.hp-team .content p {
 		padding: 0 83px 0 72px;
@@ -27,11 +32,11 @@
 	}
 
 	.hp-team .slick-prev {
-		left: 48px;
+		left: 49px;
 	}
 
 	.hp-team .slick-next {
-		right: 102px;
+		right: 100px;
 		padding-right: 0;
 	}
 
@@ -44,9 +49,6 @@
     	right: 6px;
 	}
 
-	/* Team End  */
-
-
 	/* Fixed Sidebar */
 	.comp-social-sidebar a {
 		width: 36px;
@@ -58,17 +60,73 @@
 @media only screen and (max-width: 1365px) {
 	/* 1200 */	
 
+	/* Global */
+
+	.global-btn a, .global-btn input {
+		width: 247px;
+		height: 63px;
+		font-size: 15px;
+	}
+
+	.primary-text {
+		font-size: 59px;
+	}
+
+	.secondary-text {
+		font-size: 39px;
+	}
+
 	/* Header */
 
-	/* Header End  */
+	.header-inner {
+		max-width: 1050px;
+		margin: 0 auto;
+	}
 
 	/* Quick */
+	.hp-quick-search {
+		max-width: 1050px;
+	}
 
-	/* Quick End  */
 
 	/* Featured Properties */
 
-	/* Featured Properties End  */
+	.hp-properties img {
+		max-width: 87%;
+	}
+
+	.hp-properties a {
+		text-align: right;
+	}
+
+	.fp-second-slick-wrapper .fp-slick-2 a {
+		text-align: left;
+	}
+
+	.hp-properties .arrow-holder {
+		right: 26.4%;
+	}
+
+	.hp-properties .arrow-left {
+		left: 25.4%;
+	}
+
+	.fp-primary-style {
+		font-size: 17px;
+		line-height: 22px;
+		padding: 64px 0 13px;
+		max-width: 252px;
+	}
+
+	.fp-description .fp-secondary-style {
+		font-size: 27px;
+	}
+
+	.fp-slick-wrapper::before {
+		height: 216px;
+		bottom: 78px;
+	}
+
 
 	/* Featured Communities */
 
@@ -76,27 +134,160 @@
 
 	/* About */
 
-	/* About End  */
+	.about-img img {
+		max-width: 87%;
+
+	}
+
+	.about-img {
+		margin-right: 0;
+		left: 84px;
+	}
+
+	.about-img::before {
+		width: 87%;
+	}
+
+	.hp-about-us .content {
+		padding: 186px 94px 0 368px;
+	}
+
+	.about-primary-text {
+		font-size: 20px;
+		line-height: 32px;
+	}
+
+	.about-secondary-text {
+		font-size: 14px;
+		line-height: 27px;
+	}
+
+	.content .global-btn {
+		padding-top: 34px;
+	}
 
 	/* Team */
 
-	/* Team End  */
+	.hp-team .comp-team-container {
+		max-width: 920px;
+		margin: 0 auto;
+	}
+
+	.hp-team .primary-text {
+		padding: 52px 0 9px 0;
+	}
+
+	.hp-team .content-primary,
+	.hp-team .content-secondary {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.hp-team::before {
+		top: 279px;
+	}
+
+	.hp-team .content .team-primary-text {
+		font-size: 32px;
+		padding: 0px 0 11px 0;
+	}
+
+	.hp-team .content .team-secondary-text {
+		font-size: 18px;
+		padding: 0 0 27px 0;
+	}
+
+	.hp-team .content p {
+		font-size: 14px;
+		line-height: 24px;
+		max-width: 442px;
+		margin: 0 auto;
+	}
+
+	.hp-team .normal,
+	.hp-team .reverse {
+		align-self: end;
+	}
+
+	.hp-team .slick-prev,
+	.hp-team .slick-next {
+		font-size: 11px;
+	}
+
+	.hp-team .slick-prev {
+		left: 45px;
+	}
+
+	.hp-team .slick-next {
+		right: 89px;
+		padding-right: 0;
+	}
+
+	.hp-team .slick-prev::before,
+	.hp-team .slick-next::before {
+		font-size: 25px;
+	}
+
+	.hp-team .slick-next::before {
+		top: 7px;
+	}
 
 	/* Tagline */
+	.hp-tagline .container {
+		max-width: 1000px;
+	}
 
-	/* Tagline End  */
 
 	/* Clients */
+	.hp-clients .slick-slider {
+		margin-left: 0;
+		margin-right: 0;
+	}
 
-	/* Clients End  */
+	.hp-clients .client-item {
+		padding: 104px 0 180px 0;
+	}
 
-	/* Social */
+	.hp-clients .primary-text {
+		font-size: 55px;
+	}
 
-	/* Social End  */
+	.hp-clients h3 {
+		padding: 61px 0 6px 0;
+		font-size: 22px;
+	}
+
+	.hp-clients p {
+		font-size: 15px;
+		max-width: 671px;
+	}
+
+	.hp-clients .slick-prev, .hp-clients .slick-next {
+		font-size: 28px;
+	}
+
+	.hp-clients .slick-next {
+		right: 154px;
+	}
+
+	.hp-clients .slick-prev {
+		left: 154px;
+	}
+
+	.hp-clients .client-item::after {
+		background: url(images/quotes-small.png) no-repeat;
+		left: 91px;
+	}
 
 	/* Get in touch */
+	.hp-git .container {
+		padding: 111px 70px 87px;
+		background: #fff;
+		max-width: 939px;
+		padding: 88px 60px 95px;
+	}
 
-	/* Get in touch End  */
 	
 	/* Footer */
 
@@ -105,6 +296,11 @@
 	/* Intro Modal */
 
 	/* Intro Modal End*/
+
+	/* Fixed Sidebar */
+	.comp-social-sidebar {
+		right: 20px;
+	}
 } 
 
 @media only screen and (max-width: 1199px) {
