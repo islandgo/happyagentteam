@@ -944,6 +944,9 @@
 		height: 75px;
 	}
 
+	.hp-git .global-btn {
+		bottom: 10px;
+	}
 	
 	/* Footer */
 
@@ -1059,6 +1062,8 @@
 
 	/* Get in touch */
 
+
+
 	.hp-git .container {
 		max-width: 408px;
 
@@ -1069,8 +1074,9 @@
 	/* Footer End  */
 
 	/* Intro Modal */
-
-	/* Intro Modal End*/
+	.aiosp-content.aios-popup-body.intro-popup-body {
+		padding: 95px 44px 50px;
+	}
 
     .ip-banner .container{
         width: 100%;
@@ -1119,8 +1125,13 @@
 	/* Social End  */
 
 	/* Get in touch */
+	.git-form {
+		padding: 82px 30px 113px;
+	}
 
-	/* Get in touch End  */
+	.hp-git .container {
+		max-width: 281px;
+	}
 	
 	/* Footer */
 
