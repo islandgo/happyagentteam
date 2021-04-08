@@ -288,11 +288,6 @@
 		padding: 88px 60px 95px;
 	}
 
-	
-	/* Footer */
-
-	/* Footer End  */
-
 	/* Intro Modal */
 
 	/* Intro Modal End*/
@@ -306,17 +301,121 @@
 @media only screen and (max-width: 1199px) {
 	/* 992 */
 
-	/* Header */
+	/* Global */
+	.primary-text {
+		font-size: 47px;
+	}
 
-	/* Header End  */
+	.secondary-text {
+		font-size: 30px;
+	}
+
+	.global-btn a, .global-btn input {
+		width: 202px;
+		height: 47px;
+		font-size: 13px;
+	}
+
+	/* Header */
+	.header-inner {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.header .logo-holder img {
+		max-width: 100%;
+	}
+
+	#nav li a, .nav2 li a {
+		font-size: 13px;
+	}
+
+	.aios-split-nav {
+		padding: 82px 20px 0;
+	}
 
 	/* Quick */
+	.hp-quick-search {
+		max-width: 850px;
+	}
+
+	.qs-xl select, 
+	.qs-lg select, 
+	.qs-sm select, 
+	.qs-md input, 
+	.qs-btn input, 
+	.qs-btn a {
+		font-size: 11px;
+		padding: 0px 12px;
+	}
 
 	/* Quick End  */
 
 	/* Featured Properties */
+	.hp-properties img {
+		max-width: 70%;
+	}
 
-	/* Featured Properties End  */
+	.fp-slick-wrapper::before {
+		height: 181px;
+		bottom: 64px;
+	}
+
+	.fp-primary-style {
+		font-size: 15px;
+		padding: 50px 0 11px;
+		max-width: 222px;
+	}
+
+	.fp-description .fp-secondary-style {
+		font-size: 24px;
+		padding-bottom: 19px;
+	}
+
+	.hp-properties a {
+		text-align: right;
+		margin-right: 33px;
+	}
+
+	.fp-slick-1 .fp-content,
+	.fp-slick-3 .fp-content, 
+	.fp-slick-1 .fp-description, 
+	.fp-slick-3 .fp-description {
+		margin-left: 0;
+	}
+
+	.hp-properties .arrow-holder {
+		right: 22.4%;
+	}
+
+	.hp-properties button {
+		font-size: 11px;
+	}
+
+	.hp-properties .ai-font-arrow-b-p::before, 
+	.hp-properties .ai-font-arrow-b-n::before {
+		font-size: 24px;
+	}
+
+	.hp-properties .ai-font-arrow-b-n::before {
+		right: -24px;
+		top: -4px;
+	}
+
+	.hp-properties .ai-font-arrow-b-p::before {
+		left: -21px;
+		top: -4px;
+	}
+
+	.hp-properties .arrow-btn.prev {
+		padding-right: 30px;
+	}
+
+	.hp-properties .fp-slick-2 .fp-content > a {
+		margin-right: 0;
+	}
+
+
 
 	/* Featured Communities */
 
@@ -353,13 +452,37 @@
 	/* Intro Modal */
 
 	/* Intro Modal End*/
+
+	/* Fixed Sidebar */
+
+	.comp-social-sidebar {
+		top: 46%;
+	}
+
+	.comp-social-sidebar a {
+		width: 30px;
+		height: 30px;
+	}
+
+	.comp-social-sidebar::before {
+		height: 119px;
+		top: -138px;
+    	right: 15px;
+	}
+
+	.comp-social-sidebar::after {
+		height: 119px;
+		bottom: -138px;
+		right: 13px;
+	}
+
 } 
 
 
 
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
-
+	/* 768 */
 	/* Header */
 
 	/* Header End  */
