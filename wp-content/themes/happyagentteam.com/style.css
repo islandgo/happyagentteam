@@ -957,6 +957,16 @@ body {
     padding: 95px 123px 50px;
 }
 
+.intro-popup-form .global-btn {
+    position: relative;
+}
+
+.intro-popup-form .global-btn .primary-btn {
+    margin: 0 auto;
+}
+
+
+
 .aios-popup-body .aiosp-close {
     color: #000;
     font-size: 51px;
@@ -1032,14 +1042,6 @@ body {
 
 .intro-popup-form textarea {
     height: 75px;
-}
-
-.intro-popup-form .global-btn {
-    margin: 0 auto;
-    position: relative;
-    left: 50%;
-    transform: translate(-29%, -10px);
-    bottom: 0;
 }
 
 
@@ -1562,11 +1564,11 @@ button {
 }
 
 .hp-team .slick-prev {
-    left: 120px;
+    left: 7%;
 }
 
 .hp-team .slick-next {
-    right: 151px;
+    right: 9%;
     padding-right: 10px;
 }
 
