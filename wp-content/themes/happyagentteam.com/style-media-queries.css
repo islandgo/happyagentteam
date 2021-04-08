@@ -166,6 +166,10 @@
 
 	/* Header */
 
+	.header-inner {
+		display: none;
+	}
+
 	/* Header End  */
 
 	/* Quick */
@@ -186,6 +190,14 @@
 
 	/* Team */
 
+	.comp-team-container {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.comp-team-container img {
+		margin: 0 auto;
+	}
+	
+	
 	/* Team End  */
 
 	/* Tagline */
@@ -198,6 +210,10 @@
 
 	/* Social */
 
+	.hp-social .social-item a{
+		min-height: 200px;
+	}
+
 	/* Social End  */
 
 	/* Get in touch */
@@ -205,6 +221,21 @@
 	/* Get in touch End  */
 	
 	/* Footer */
+
+	.upper-footer {
+		flex-direction: column;
+	}
+	.upper-footer .pad-right {
+		padding: 0 0 69px 0;
+		max-width: 80%;
+		margin: 0 auto;
+	}
+
+	.upper-footer .pad-left {
+		padding: 0;
+		max-width: 80%;
+		margin: 0 auto;
+	}
 
 	/* Footer End  */
 

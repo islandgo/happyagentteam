@@ -1903,16 +1903,12 @@ button {
     padding: 85px 0 0;
 }
 
-.social-item.item-1 a,
-.social-item.item-2 a,
-.social-item.item-3 a,
-.social-item.item-4 a,
-.social-item.item-5 a {   
+.hp-social .social-item a {   
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 320px;
+    min-height: 320px;
     text-shadow: 1px 1px 1px #000;
     -webkit-transition: all 0.4s ease-in-out;
     -moz-transition: all 0.4s ease-in-out;
