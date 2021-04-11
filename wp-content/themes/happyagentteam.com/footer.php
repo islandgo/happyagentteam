@@ -12,7 +12,7 @@
 
 				<div class="lower-footer">
 					<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_class' => 'footernav', 'theme_location' => 'primary-menu','depth'=>1 ) ); ?>
-					<p class="copyright">Copyright © <?php echo do_shortcode('[currentYear]')?> <span class="sitename"> Patrice Sandstrom </span>All rights reserved. <a class="sitemap" href="<?php echo do_shortcode('[blogurl]')?>/sitemap">Sitemap |</a> <?php echo do_shortcode('[agentimage_credits credits="Real Estate Website Design by <a target="_blank" href="https://www.agentimage.com" style="text-decoration:underline;font-weight:bold">Agent Image</a>"]'); ?>
+					<p class="copyright">Copyright © <?php echo do_shortcode('[currentYear]')?> <span class="sitename"> Patrice Sandstrom. </span>All rights reserved. <a class="sitemap" href="<?php echo do_shortcode('[blogurl]')?>/sitemap">Sitemap |</a> <?php echo do_shortcode('[agentimage_credits credits="Real Estate Website Design by <a target="_blank" href="https://www.agentimage.com" style="text-decoration:underline;font-weight:bold">Agent Image</a>"]'); ?>
 					</p>
 					<div class="mls">
 						<em class="ai-font-eho" title="MLS"></em>

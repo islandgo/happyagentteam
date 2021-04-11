@@ -1,6 +1,12 @@
 ( function() {
 
 	var app = {
+		aosInit: function() {
+
+			setTimeout(function(){
+				AOS.init();
+			}, 1000);
+		},
 
 
 		initDetectScroll: function() {
@@ -48,8 +54,9 @@
 					dots: false,
 					infinite: true,
 					slidesToShow: 1,
+					fade: true,
 					speed: 1000,
-					autoplay: false,
+					autoplay: true,
 					autoplaySpeed: 5000,
 					slidesToScroll: 1,
 					arrows: false,
@@ -154,7 +161,7 @@
 				fade: true,
 				slidesToShow: 1,
 				speed: 1000,
-				autoplay: false,
+				autoplay: true,
 				autoplaySpeed: 5000,
 				slidesToScroll: 1,
 				arrows: true,
@@ -252,6 +259,8 @@
 	
 	jQuery(document).ready( function() {
 
+		app.aosInit();
+
 		app.initNavSlide();
 
 		app.initMainNav();
@@ -289,7 +298,9 @@
 		setTimeout(function() {
             jQuery('a.introPopupTrigger').trigger('click');
             jQuery('.aios-popup-body').addClass('intro-popup-body');
-        },1000);
+        },5000);
+
+		jQuery('.map-wrap').css({'pointer-events' : 'all'});
 	})
 
 	jQuery(window).on('scroll', function(){

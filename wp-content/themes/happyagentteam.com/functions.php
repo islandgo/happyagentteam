@@ -14,6 +14,15 @@ function register_ai_child_starter_theme_sidebars() {
     ));
 
 	register_sidebar(array( 
+		'name' => 'Header Logo',
+		'id'=>'header-logo',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	register_sidebar(array( 
 		'name' => 'Hp Slideshow',
 		'id'=>'hp-slideshow',
 		'before_widget' => '',
@@ -43,6 +52,15 @@ function register_ai_child_starter_theme_sidebars() {
 	 register_sidebar(array( 
 		'name' => 'Hp Properties',
 		'id'=>'hp-properties',
+		'before_widget' => '',
+		'after_widget' => '',
+		'before_title' => '',
+		'after_title' => ''
+	 ));
+
+	 register_sidebar(array( 
+		'name' => 'Hp Communities',
+		'id'=>'hp-communities',
 		'before_widget' => '',
 		'after_widget' => '',
 		'before_title' => '',
@@ -129,6 +147,8 @@ function register_ai_child_starter_theme_sidebars() {
 		'before_title' => '',
 		'after_title' => ''
 	 ));
+
+	 
 	 
 	
 }

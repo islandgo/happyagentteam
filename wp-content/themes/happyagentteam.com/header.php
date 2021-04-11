@@ -23,10 +23,7 @@
 		<div class="container">
 			<div class="header-inner">
 				<div class="logo-holder">
-					<a aria-label="logo" href="[blogurl]">
-						<img alt="logo" class="img-responsive main" src="<?php echo get_stylesheet_directory_uri()?>/images/header-logo.png">
-						<img alt="logo" class="img-responsive fixed" src="<?php echo get_stylesheet_directory_uri()?>/images/fixed-logo.png">
-					</a>
+				<?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar("Header Logo") ) : ?><?php endif ?>
 				</div>
 				<?php wp_nav_menu( array( 'sort_column' => 'menu_order', 'menu_id' => 'nav2', 'theme_location' => 'primary-menu','container_class' => 'row' ) ); ?>
 			</div>

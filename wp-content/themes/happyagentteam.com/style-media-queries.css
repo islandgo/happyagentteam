@@ -333,7 +333,6 @@
 } 
 
 @media only screen and (max-width: 1199px) {
-	/* 992 */
 
 	/* Global */
 	.primary-text {
@@ -674,11 +673,30 @@
 
 /* iPad(portrait) | Galaxy Tab 4(portrait)  */ 
 @media only screen and (max-width: 991px) {
-	/* 768 */
-	/* Header */
+	.intro-popup-form .form-md {
+		width: 100% !important;
+		padding-left: 0 !important;
+		padding-right: 0 !important;
+	}
 
-	.header-inner {
+	/* Header */
+	.aios-mobile-header-wrapper {
+		z-index: 1020 !important;
+	}
+
+
+	header.header {
+		position: relative;
+		background: #cdbe9d;
+		margin: 53px 0 0;
+	}
+
+	.aios-split-nav {
 		display: none;
+	}
+
+	.header-inner>.row {
+		justify-content: center;
 	}
 
 	/* Quick */
@@ -692,12 +710,16 @@
 	.qs-lg, 
 	.qs-sm, 
 	.qs-md {
-		width: 32.65%;
+		width: 100%;
 	}
 
 	.qs-btn {
-		width: 50%;
+		width: 100%;
 		margin: 0 auto;
+	}
+
+	.qs-btn {
+		flex-direction: column;
 	}
 
 
@@ -740,7 +762,7 @@
 		right: initial;
 		transform: translateX(-50%);
 		bottom: -37px;
-		left: 50%;
+		left: 49%;
 	}
 
 	.fp-slick-2 .fp-content {
@@ -760,6 +782,37 @@
 
 	.fp-slick-wrapper::after {
 		display: none;
+	}
+
+	/* Communities */
+	.fc-desk{
+		display: none;
+	}
+
+	.fc-title {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+	.fc-title h2 {
+		font-size: 50px;
+	}
+
+	.fc-mob {
+		display: block !important;
+		text-align: center;
+	}
+
+	.fc-mob .global-btn a {
+		color: #000;
+		border: 1px solid #000;
+		margin: 30px auto;
+	}
+
+	.global-btn a:hover{
+		color: #fff;
+		border: 1px solid #cdbe9d;
 	}
 
 	/* About */
@@ -906,7 +959,6 @@
 		bottom: 59%;
 	}
 
-	
 
 	/* Social */
 
@@ -929,11 +981,13 @@
 
 	.git-form {
 		flex-wrap: wrap;
+		padding: 21px 55px 89px;
 	}
 
 	.hp-git .form-md {
 		display: inline-block;
 		width: 100%;
+		padding: 0 0 10px;
 	}
 
 	.git-form > div {
@@ -978,7 +1032,9 @@
 	}
 	
 	/* The following are used on inner pages. Please edit carefully. */
-
+	.ip-banner canvas{
+		min-height: 100%;
+	}
 	.inner {
 	    width: 100%;
 	}
@@ -997,10 +1053,11 @@
 
 /* Galaxy Tab 3(portrait) | Galaxy S5(landscape) */ 
 @media only screen and (max-width: 767px) {
-	/* 481 */
 
 
-
+	.intro-popup-form div.wpcf7-response-output {
+		font-size: 11px;
+	}
 	/* Header */
 
 	/* Header End  */
@@ -1046,6 +1103,18 @@
 		bottom: 65%;
 	}
 
+	.hp-clients .slick-list {
+		padding-left: 5%!important;
+		padding-right: 5%!important;
+	}
+
+	.hp-clients .slick-prev {
+		left: 2px;
+	}
+
+	.hp-clients .slick-next {
+		right: 2px;
+	}
 	/* Social */
 
 	.hp-social {
@@ -1087,6 +1156,14 @@
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */ 
 @media only screen and (max-width: 480px) {
+	.intro-popup-form div.wpcf7-response-output {
+		bottom: -38px;
+	}
+
+	.intro-popup-form .use-floating-validation-tip .wpcf7-not-valid-tip {
+		width: 120px;
+		font-size: 11px;
+	}
 
 	/* Header */
 
@@ -1126,11 +1203,15 @@
 
 	/* Get in touch */
 	.git-form {
-		padding: 82px 30px 113px;
+		padding: 2px 30px 70px;
 	}
 
 	.hp-git .container {
 		max-width: 281px;
+	}
+
+	.hp-git .secondary-text-holder {
+		margin-bottom: 13px;
 	}
 	
 	/* Footer */
